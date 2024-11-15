@@ -1,0 +1,237 @@
+---
+import ArrowCard from "../components/ArrowCard.astro";
+import Hero from "../components/Hero.astro";
+import Layout from "../layouts/Layout.astro";
+
+type Entry = {
+    collection: string;
+    slug: string;
+    data: {
+        title: string;
+        description: string;
+        ingredients: Array<{
+            name: string;
+            quantity: string;
+        }>;
+        instructions: Array<{
+            step: number;
+            text: string;
+        }>;
+    };
+};
+
+// Data dummy untuk peta konten
+const content: Entry[] = [
+    {
+        collection: "recipes",
+        slug: "papeda",
+        data: {
+            title: "Papeda",
+            description:
+                "Papeda adalah makanan khas yang dibuat dari sagu mentah dan jeruk nipis.",
+            ingredients: [
+                { name: "Sagu mentah", quantity: "Secukupnya" },
+                { name: "Jeruk nipis", quantity: "Secukupnya" },
+                { name: "Air panas", quantity: "Secukupnya" },
+            ],
+            instructions: [
+                {
+                    step: 1,
+                    text: "Sagu dilarutkan dengan air dingin secukupnya didalam loyang atau bokor (jangan terlalu cair).",
+                },
+                {
+                    step: 2,
+                    text: "Jeruk nipis diperas ke dalam larutan sagu, kemudian ditapis atau disaring ke dalam sempe atau bokor.",
+                },
+                { step: 3, text: "Air direbus sampai mendidih." },
+                {
+                    step: 4,
+                    text: "Aduk larutan sagu perlahan-lahan sambil air panas tadi dituangkan dalam larutan sagu.",
+                },
+                {
+                    step: 5,
+                    text: "Ulangi hingga larutan tadi mengental, itu berarti sudah masak.",
+                },
+            ],
+        },
+    },
+    {
+        collection: "recipes",
+        slug: "papeda-kacang",
+        data: {
+            title: "Papeda Kacang",
+            description:
+                "Papeda yang ditambah dengan kacang hijau dan kelapa untuk cita rasa yang berbeda.",
+            ingredients: [
+                { name: "Sagu mentah", quantity: "2 gelas" },
+                { name: "Kacang hijau", quantity: "1 gelas" },
+                { name: "Kelapa", quantity: "1 buah dibuat santan 2 gelas" },
+                { name: "Garam", quantity: "Secukupnya" },
+            ],
+            instructions: [
+                { step: 1, text: "Kacang dimasak sampai matang dan saring." },
+                {
+                    step: 2,
+                    text: "Sagu dicampur air secukupnya sehingga dapat tersaring.",
+                },
+                {
+                    step: 3,
+                    text: "Campuran tersebut disaring ke rebusan kacang hijau.",
+                },
+                {
+                    step: 4,
+                    text: "Rebusan kacang hijau tetap di atas api yang dinyalakan tidak terlalu besar, sambil diaduk-aduk.",
+                },
+                {
+                    step: 5,
+                    text: "Dimasak sampai sagunya matang. Papeda kacang enak dimakan bersama ikan bakar.",
+                },
+            ],
+        },
+    },
+    {
+        collection: "recipes",
+        slug: "merebus-keladi-betatas-ubi",
+        data: {
+            title: "Merebus Keladi, Betatas atau Ubi",
+            description:
+                "Cara merebus keladi, betatas, atau ubi dengan sempurna.",
+            ingredients: [
+                { name: "Keladi", quantity: "Secukupnya" },
+                { name: "Betatas atau ubi", quantity: "Secukupnya" },
+                { name: "Garam", quantity: "Secukupnya" },
+            ],
+            instructions: [
+                {
+                    step: 1,
+                    text: "Keladi dikupas dan dipotong-potong sesuai dengan kebutuhan.",
+                },
+                { step: 2, text: "Rebus air secukupnya sampai mendidih." },
+                {
+                    step: 3,
+                    text: "Kemudian masukkan potongan-potongan keladi tadi.",
+                },
+                {
+                    step: 4,
+                    text: "Biarkan sampai mendidih, sampai keladi masak tetapi jangan hancur.",
+                },
+            ],
+        },
+    },
+    {
+        collection: "recipes",
+        slug: "pure-kasbi-dengan-kelapa-bakar",
+        data: {
+            title: "Pure Kasbi dengan Kelapa Bakar",
+            description:
+                "Pure kasbi dengan kelapa bakar untuk cita rasa tradisional.",
+            ingredients: [
+                { name: "Kasbi", quantity: "Secukupnya" },
+                { name: "Keladi atau betatas", quantity: "Secukupnya" },
+                { name: "Kelapa", quantity: "1 buah" },
+                { name: "Garam", quantity: "Secukupnya" },
+            ],
+            instructions: [
+                { step: 1, text: "Kasbi direbus sampai masak." },
+                {
+                    step: 2,
+                    text: "Kelapa dikukur dan dicampur dengan garam. Gula dapat ditambah secukupnya.",
+                },
+                {
+                    step: 3,
+                    text: "Sementara, sebuah batu ukuran kepalan tangan dibakar sampai membara.",
+                },
+                {
+                    step: 4,
+                    text: "Kasbi ditumbuk sampai lumat. Buatkan kolam di dalamnya.",
+                },
+                {
+                    step: 5,
+                    text: "Batu yang telah dibakar diletakkan di atas api, dijatuhi lagi dengan kelapa yang ada di dalam, lalu tunggu sampai minyak kelapa hilang.",
+                },
+                {
+                    step: 6,
+                    text: "Kelapa bakar dapat dihidangkan sebagai jajan, tetapi tidak enak apabila ditambah gula dapat dimakan dengan ikan bakar.",
+                },
+            ],
+        },
+    },
+    {
+        collection: "recipes",
+        slug: "nasi-putih",
+        data: {
+            title: "Nasi Putih",
+            description: "Nasi putih yang dimasak sederhana dan lembut.",
+            ingredients: [{ name: "Beras", quantity: "Secukupnya" }],
+            instructions: [
+                {
+                    step: 1,
+                    text: "Beras dibersihkan dan ditampih, kemudian dicuci.",
+                },
+                {
+                    step: 2,
+                    text: "Sewaktu dicuci ingat beras jangan digosok-gosok karena itu akan menghilangkan zat tepung pada beras.",
+                },
+                { step: 3, text: "Cukup diaduk-aduk air saja." },
+                {
+                    step: 4,
+                    text: "Setelah beras dicuci masukkan pula air yang diperkirakan sebatas 2 ruas jari tengah.",
+                },
+                { step: 5, text: "Siap untuk dimasak." },
+                {
+                    step: 6,
+                    text: "Nyalakan api dengan baik dan merata pada belanga.",
+                },
+                {
+                    step: 7,
+                    text: "Dimasak sampai mendidih, kurangi api dan biarkan sampai nasi kering.",
+                },
+            ],
+        },
+    },
+];
+---
+
+<Layout title="Welcome to Daftar Isi." description="...">
+    <main>
+        <section
+            class="max-w-screen-lg mx-auto animate space-y-6 px-4 md:px-24 lg:px-8 py-8"
+        >
+            <div
+                class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl lg:px-0 pt-6"
+            >
+                <h2
+                    class="mb-4 font-sans text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl sm:leading-none"
+                >
+                    Daftar Isi Terperinci
+                </h2>
+                <form>
+                    <div class="w-full">
+                        <label
+                            for="hs-search-recipes-1"
+                            class="block text-sm text-gray-700 font-medium"
+                            ><span class="sr-only">Cari judul resep</span
+                            ></label
+                        >
+                        <input
+                            type="email"
+                            name="hs-search-recipes-1"
+                            id="hs-search-recipes-1"
+                            class="py-2.5 px-4 block w-full border border-gray-300 rounded-lg focus:border-gray-500 focus:ring-gray-500 focus:outline-none"
+                            placeholder="Cari Judul Resep..."
+                        />
+                    </div>
+                </form>
+            </div>
+            <ul class="not-prose flex flex-col gap-4 pt-8">
+                {
+                    content.map((post) => (
+                        <li>
+                            <ArrowCard entry={post} />
+                        </li>
+                    ))
+                }
+            </ul>
+        </section>
+    </main>
+</Layout>

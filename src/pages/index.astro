@@ -1,8 +1,97 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import ArrowCard from "../components/ArrowCard.astro";
+import Hero from "../components/Hero.astro";
+import Layout from "../layouts/Layout.astro";
+
+type Chapter = {
+	chapter: string | null;
+	title: string;
+	slug: string;
+};
+
+// Data chapters yang berisi setiap bab sebagai item terpisah, dengan beberapa bab tanpa angka Romawi
+const chapters: Chapter[] = [
+	{
+		chapter: null,
+		title: "Kata Pengantar",
+		slug: "kata-pengantar",
+	},
+	{
+		chapter: null,
+		title: "Makanan Baik Bagi Keluarga",
+		slug: "makanan-baik-bagi-keluarga",
+	},
+	{
+		chapter: "I",
+		title: "Masakan Papeda, Keladi dan Nasi",
+		slug: "papeda-keladi-nasi",
+	},
+	{ chapter: "II", title: "Masakan Sup", slug: "masakan-sup" },
+	{
+		chapter: "III",
+		title: "Masakan Ikan, Bia, Ulat sagu",
+		slug: "masakan-ikan-bia-ulat-sagu",
+	},
+	{
+		chapter: "IV",
+		title: "Masakan Kacangan, Tempe dan Tahu",
+		slug: "masakan-kacangan-tempe-tahu",
+	},
+	{ chapter: "V", title: "Masakan Telur", slug: "masakan-telur" },
+	{ chapter: "VI", title: "Masakan Daging", slug: "masakan-daging" },
+	{ chapter: "VII", title: "Sayur-sayuran", slug: "sayur-sayuran" },
+	{
+		chapter: "VIII",
+		title: "Sambal dan lauk pauk lainnya",
+		slug: "sambal-lauk-pauk-lainnya",
+	},
+	{ chapter: "IX", title: "Kue - kue", slug: "kue-kue" },
+	{
+		chapter: "X",
+		title: "Masakan macam-macam bubur",
+		slug: "macam-macam-bubur",
+	},
+	{
+		chapter: null,
+		title: "Daftar isi terperinci",
+		slug: "daftar-isi",
+	},
+];
 ---
 
-<Layout title="Welcome to Astro." description="...">
+<Layout
+	title="Dapoer Papoea: Resep Tradisional Papua"
+	description="Selamat datang di Dapoer Papoea. Temukan berbagai resep masakan tradisional khas Papua, mulai dari masakan papeda hingga kue-kue dan sambal, serta panduan makanan sehat untuk keluarga Anda."
+>
 	<main>
+		<Hero />
+		<section
+			class="max-w-screen-lg mx-auto animate space-y-6 px-4 md:px-24 lg:px-8 py-8 md:py-16"
+		>
+			<h2 class="text-3xl font-semibold text-black">Daftar Isi</h2>
+
+			<ul class="not-prose flex flex-col gap-4">
+				{
+					chapters.map((chapter) => (
+						<li class="space-y-1">
+							<ArrowCard
+								entry={{
+									collection: "daftar-isi",
+									slug: chapter.slug,
+									data: {
+										title: chapter.chapter
+											? `${chapter.chapter}. ${chapter.title}`
+											: chapter.title,
+										description: chapter.chapter
+											? `Lihat resep untuk ${chapter.title}`
+											: `Baca ${chapter.title}`,
+									},
+								}}
+							/>
+						</li>
+					))
+				}
+			</ul>
+		</section>
 	</main>
 </Layout>

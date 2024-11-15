@@ -1,3 +1,7 @@
+---
+const currentPath = Astro.url.pathname; // Mendapatkan path URL saat ini
+---
+
 <!-- ========== HEADER ========== -->
 <header
   class="bg-white border-b border-gray-200 flex flex-wrap md:justify-start md:flex-nowrap z-50 w-full"
@@ -74,7 +78,11 @@
           class="py-2 md:py-0 flex flex-col md:flex-row md:items-center md:justify-end gap-0.5 md:gap-1"
         >
           <a
-            class="p-2 flex items-center text-blue-600 focus:outline-none focus:text-blue-600"
+            class={`p-2 flex items-center ${
+              currentPath === "/"
+                ? "text-blue-600"
+                : "text-gray-800 hover:text-gray-500"
+            } focus:outline-none focus:text-blue-600`}
             href="/"
             aria-current="page"
           >
@@ -93,11 +101,15 @@
                 d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
               ></path></svg
             >
-            Teras
+            Beranda
           </a>
 
           <a
-            class="p-2 flex items-center text-gray-800 hover:text-gray-500 focus:outline-none focus:text-gray-500"
+            class={`p-2 flex items-center ${
+              currentPath === "/tentang/"
+                ? "text-blue-600"
+                : "text-gray-800 hover:text-gray-500"
+            } focus:outline-none focus:text-blue-600`}
             href="/tentang/"
           >
             <svg
