@@ -15,8 +15,8 @@ const { entry } = Astro.props as { entry: Entry };
 const url =
     entry.slug === "daftar-isi"
         ? `/${entry.slug}/` // Jika slug adalah "daftar-isi", gunakan path langsung
-        : entry.slug === "coming-soon"
-          ? `/${entry.slug}/` // Jika slug adalah "coming-soon", gunakan path langsung tanpa collection
+        : entry.slug === "segera-hadir"
+          ? `/${entry.slug}/` // Jika slug adalah "segera-hadir", gunakan path langsung tanpa collection
           : `/${entry.collection}/${entry.slug}/`; // Untuk slug lain, tambahkan collection
 ---
 
