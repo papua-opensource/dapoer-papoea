@@ -7,6 +7,8 @@ export default {
 		extend: {
 			fontFamily: {
 				sans: ['Onest Variable', ...defaultTheme.fontFamily.sans],
+				comforter: ['Comforter'],
+				laila: ['Laila'],
 			},
 		},
 	},
