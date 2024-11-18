@@ -192,7 +192,7 @@ const content: Entry[] = [
 ];
 ---
 
-<Layout title="Welcome to Daftar Isi." description="...">
+<Layout title="Daftar Isi Terperinci" description="...">
     <main>
         <section
             class="max-w-screen-lg mx-auto animate space-y-6 px-4 md:px-24 lg:px-8 py-8"
@@ -222,6 +222,24 @@ const content: Entry[] = [
                         />
                     </div>
                 </form>
+                <div class="mt-4">
+                    <span
+                        class="inline-flex gap-x-2 items-center py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-md"
+                    >
+                        <svg
+                            class="shrink-0 size-4"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            ><path
+                                fill="currentColor"
+                                d="M16 21q-.825 0-1.412-.587T14 19v-4q0-.825.588-1.412T16 13h4q.825 0 1.413.588T22 15v4q0 .825-.587 1.413T20 21zm0-2h4v-4h-4zM3 18q-.425 0-.712-.288T2 17t.288-.712T3 16h7q.425 0 .713.288T11 17t-.288.713T10 18zm13-7q-.825 0-1.412-.587T14 9V5q0-.825.588-1.412T16 3h4q.825 0 1.413.588T22 5v4q0 .825-.587 1.413T20 11zm0-2h4V5h-4zM3 8q-.425 0-.712-.288T2 7t.288-.712T3 6h7q.425 0 .713.288T11 7t-.288.713T10 8zm15-1"
+                            ></path></svg
+                        >
+                        Masakan macam-macam bubur
+                    </span>
+                </div>
             </div>
             <ul class="not-prose flex flex-col gap-4 pt-8">
                 {
@@ -232,6 +250,7 @@ const content: Entry[] = [
                     ))
                 }
             </ul>
+            <p class="text-end text-xs text-gray-500">Total 5 Resep Masak</p>
         </section>
     </main>
 </Layout>
