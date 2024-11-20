@@ -30,6 +30,14 @@
             {
                 "step": 3,
                 "text": "Air direbus sampai mendidih."
+            },
+            {
+                "step": 4,
+                "text": "Aduk larutan sagu perlahan-lahan sambil air panas tadi dituangkan dalam larutan sagu."
+            },
+            {
+                "step": 5,
+                "text": "Ulangi hingga larutan tadi mengental, itu berarti sudah masak."
             }
         ]
     },
@@ -64,6 +72,148 @@
             {
                 "step": 2,
                 "text": "Sagu dicampur air secukupnya sehingga dapat tersaring."
+            },
+            {
+                "step": 3,
+                "text": "Campuran tersebut disaring ke rebusan kacang hijau."
+            },
+            {
+                "step": 4,
+                "text": "Rebusan kacang hijau tetap di atas api yang dinyalakan tidak terlalu besar, sambil diaduk-aduk."
+            },
+            {
+                "step": 5,
+                "text": "Dimasak sampai sagunya matang. Papeda kacang enak dimakan bersama ikan bakar."
+            }
+        ]
+    },
+    {
+        "title": "Merebus Keladi, Betatas atau Ubi",
+        "slug": "merebus-keladi-betatas-ubi",
+        "category": "papeda-keladi-nasi",
+        "description": "Cara merebus keladi, betatas, atau ubi dengan sempurna.",
+        "ingredients": [
+            {
+                "name": "Keladi",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Betatas atau ubi",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Keladi dikupas dan dipotong-potong sesuai dengan kebutuhan."
+            },
+            {
+                "step": 2,
+                "text": "Rebus air secukupnya sampai mendidih."
+            },
+            {
+                "step": 3,
+                "text": "Kemudian masukkan potongan-potongan keladi tadi."
+            },
+            {
+                "step": 4,
+                "text": "Biarkan sampai mendidih, sampai keladi masak tetapi jangan hancur."
+            }
+        ]
+    },
+    {
+        "title": "Pure Kasbi dengan Kelapa Bakar",
+        "slug": "pure-kasbi-dengan-kelapa-bakar",
+        "category": "papeda-keladi-nasi",
+        "description": "Pure kasbi dengan kelapa bakar untuk cita rasa tradisional.",
+        "ingredients": [
+            {
+                "name": "Kasbi",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Keladi atau betatas",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kelapa",
+                "quantity": "1 buah"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kasbi direbus sampai masak."
+            },
+            {
+                "step": 2,
+                "text": "Kelapa dikukur dan dicampur dengan garam. Gula dapat ditambah secukupnya."
+            },
+            {
+                "step": 3,
+                "text": "Sementara, sebuah batu ukuran kepalan tangan dibakar sampai membara."
+            },
+            {
+                "step": 4,
+                "text": "Kasbi ditumbuk sampai lumat. Buatkan kolam di dalamnya."
+            },
+            {
+                "step": 5,
+                "text": "Batu yang telah dibakar diletakkan di atas api, dijatuhi lagi dengan kelapa yang ada di dalam, lalu tunggu sampai minyak kelapa hilang."
+            },
+            {
+                "step": 6,
+                "text": "Kelapa bakar dapat dihidangkan sebagai jajan, tetapi tidak enak apabila ditambah gula dapat dimakan dengan ikan bakar."
+            }
+        ]
+    },
+    {
+        "title": "Nasi Putih",
+        "slug": "nasi-putih",
+        "category": "papeda-keladi-nasi",
+        "description": "Nasi putih yang dimasak sederhana dan lembut.",
+        "ingredients": [
+            {
+                "name": "Beras",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Beras dibersihkan dan ditampih, kemudian dicuci."
+            },
+            {
+                "step": 2,
+                "text": "Sewaktu dicuci ingat beras jangan digosok-gosok karena itu akan menghilangkan zat tepung pada beras."
+            },
+            {
+                "step": 3,
+                "text": "Cukup diaduk-aduk air saja."
+            },
+            {
+                "step": 4,
+                "text": "Setelah beras dicuci masukkan pula air yang diperkirakan sebatas 2 ruas jari tengah."
+            },
+            {
+                "step": 5,
+                "text": "Siap untuk dimasak."
+            },
+            {
+                "step": 6,
+                "text": "Nyalakan api dengan baik dan merata pada belanga."
+            },
+            {
+                "step": 7,
+                "text": "Dimasak sampai mendidih, kurangi api dan biarkan sampai nasi kering."
             }
         ]
     }
