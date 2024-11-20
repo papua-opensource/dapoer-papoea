@@ -1,0 +1,130 @@
+---
+import recipes from "../../data/recipes.json";
+import chapters from "../../data/chapters.json";
+import Layout from "../../layouts/Layout.astro";
+import ArrowCard from "../../components/ArrowCard.astro";
+
+// Mengelompokkan resep berdasarkan kategori
+const groupedRecipes = chapters
+    .filter((chapter) => chapter.type === "category")
+    .map((category) => ({
+        chapter: category.chapter,
+        title: category.title,
+        slug: category.slug,
+        recipes: recipes.filter((recipe) => recipe.category === category.slug),
+    }));
+---
+
+<Layout
+    title="Daftar Isi Terperinci"
+    description="Semua resep berdasarkan kategori."
+>
+    <main
+        class="max-w-screen-lg mx-auto animate space-y-6 px-4 md:px-24 lg:px-8 py-8 md:py-12"
+    >
+        <h1 class="text-3xl font-bold text-gray-800">Daftar Isi Terperinci</h1>
+
+        <!-- Input Pencarian -->
+        <div>
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Cari resep masakan..."
+                class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+            />
+        </div>
+
+        <!-- Container untuk Hasil Pencarian -->
+        <div id="resultsContainer">
+            {
+                groupedRecipes.length > 0 ? (
+                    groupedRecipes.map((group) => (
+                        <section
+                            class="space-y-4"
+                            data-group={group.title.toLowerCase()}
+                        >
+                            <h2 class="text-2xl font-semibold text-gray-800 pt-8">
+                                {group.chapter}. {group.title}
+                            </h2>
+                            {group.recipes.length > 0 ? (
+                                <ul class="not-prose flex flex-col gap-4">
+                                    {group.recipes.map((recipe) => (
+                                        <li
+                                            data-recipe={recipe.title.toLowerCase()}
+                                        >
+                                            <ArrowCard
+                                                entry={{
+                                                    collection: null,
+                                                    slug: recipe.slug,
+                                                    data: {
+                                                        title: recipe.title,
+                                                        description:
+                                                            recipe.description,
+                                                    },
+                                                }}
+                                            />
+                                        </li>
+                                    ))}
+                                </ul>
+                            ) : (
+                                <p class="text-gray-500 italic">
+                                    Belum ada resep untuk kategori ini.
+                                </p>
+                            )}
+                        </section>
+                    ))
+                ) : (
+                    <p class="text-gray-500 italic">
+                        Belum ada resep yang tersedia saat ini.
+                    </p>
+                )
+            }
+        </div>
+    </main>
+</Layout>
+<script is:inline>
+    document.addEventListener("DOMContentLoaded", () => {
+        const searchInput = document.getElementById("searchInput");
+        const resultsContainer = document.getElementById("resultsContainer");
+        const sections = resultsContainer.querySelectorAll("section");
+
+        searchInput.addEventListener("input", (event) => {
+            const query = event.target.value.toLowerCase();
+
+            // Reset ke tampilan awal jika input kosong
+            if (query.trim() === "") {
+                sections.forEach((section) => {
+                    section.style.display = "block"; // Tampilkan semua kategori
+                    const recipes = section.querySelectorAll("li");
+                    recipes.forEach((recipe) => {
+                        recipe.style.display = "block"; // Tampilkan semua resep
+                    });
+                });
+                return;
+            }
+
+            // Filter kategori dan resep berdasarkan query
+            sections.forEach((section) => {
+                const groupTitle = section.getAttribute("data-group");
+                const recipes = section.querySelectorAll("li");
+
+                let hasVisibleRecipes = false;
+
+                recipes.forEach((recipe) => {
+                    const recipeTitle = recipe.getAttribute("data-recipe");
+                    if (
+                        recipeTitle.includes(query) ||
+                        groupTitle.includes(query)
+                    ) {
+                        recipe.style.display = "block";
+                        hasVisibleRecipes = true;
+                    } else {
+                        recipe.style.display = "none";
+                    }
+                });
+
+                section.style.display = hasVisibleRecipes ? "block" : "none";
+            });
+        });
+    });
+</script>

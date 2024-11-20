@@ -1,0 +1,74 @@
+[
+    {
+        "chapter": null,
+        "title": "Kata Pengantar",
+        "slug": "kata-pengantar",
+        "type": "article"
+    },
+    {
+        "chapter": null,
+        "title": "Makanan Baik Bagi Keluarga",
+        "slug": "makanan-baik-bagi-keluarga",
+        "type": "article"
+    },
+    {
+        "chapter": "I",
+        "title": "Masakan Papeda, Keladi dan Nasi",
+        "slug": "papeda-keladi-nasi",
+        "type": "category"
+    },
+    {
+        "chapter": "II",
+        "title": "Masakan Sup",
+        "slug": "masakan-sup",
+        "type": "category"
+    },
+    {
+        "chapter": "III",
+        "title": "Masakan Ikan, Bia, Ulat Sagu",
+        "slug": "masakan-ikan-bia-ulat-sagu",
+        "type": "category"
+    },
+    {
+        "chapter": "IV",
+        "title": "Masakan Kacangan, Tempe dan Tahu",
+        "slug": "masakan-kacangan-tempe-tahu",
+        "type": "category"
+    },
+    {
+        "chapter": "V",
+        "title": "Masakan Telur",
+        "slug": "masakan-telur",
+        "type": "category"
+    },
+    {
+        "chapter": "VI",
+        "title": "Masakan Daging",
+        "slug": "masakan-daging",
+        "type": "category"
+    },
+    {
+        "chapter": "VII",
+        "title": "Sayur-Sayuran",
+        "slug": "sayur-sayuran",
+        "type": "category"
+    },
+    {
+        "chapter": "VIII",
+        "title": "Sambal dan Lauk Pauk Lainnya",
+        "slug": "sambal-dan-lauk-pauk-lainnya",
+        "type": "category"
+    },
+    {
+        "chapter": "IX",
+        "title": "Kue - Kue",
+        "slug": "kue-kue",
+        "type": "category"
+    },
+    {
+        "chapter": "X",
+        "title": "Masakan Macam-Macam Bubur",
+        "slug": "masakan-macam-macam-bubur",
+        "type": "category"
+    }
+]

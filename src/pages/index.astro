@@ -1,98 +1,63 @@
 ---
+import chapters from "../data/chapters.json";
 import ArrowCard from "../components/ArrowCard.astro";
-import Hero from "../components/Hero.astro";
 import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.astro";
 
-type Chapter = {
-	chapter: string | null;
-	title: string;
-	slug: string;
-};
-
-// Data chapters yang berisi setiap bab sebagai item terpisah, dengan beberapa bab tanpa angka Romawi
-const chapters: Chapter[] = [
-	{
-		chapter: null,
-		title: "Kata Pengantar",
-		slug: "segera-hadir",
-	},
-	{
-		chapter: null,
-		title: "Makanan baik bagi keluarga",
-		slug: "segera-hadir",
-	},
-	{
-		chapter: "I",
-		title: "Masakan Papeda, Keladi dan Nasi",
-		slug: "papeda-keladi-nasi",
-	},
-	{ chapter: "II", title: "Masakan Sup", slug: "segera-hadir" },
-	{
-		chapter: "III",
-		title: "Masakan Ikan, Bia, Ulat sagu",
-		slug: "segera-hadir",
-	},
-	{
-		chapter: "IV",
-		title: "Masakan Kacangan, Tempe dan Tahu",
-		slug: "masakan-kacangan-tempe-tahu",
-	},
-	{ chapter: "V", title: "Masakan Telur", slug: "segera-hadir" },
-	{ chapter: "VI", title: "Masakan Daging", slug: "segera-hadir" },
-	{ chapter: "VII", title: "Sayur-sayuran", slug: "segera-hadir" },
-	{
-		chapter: "VIII",
-		title: "Sambal dan lauk pauk lainnya",
-		slug: "segera-hadir",
-	},
-	{ chapter: "IX", title: "Kue - kue", slug: "segera-hadir" },
-	{
-		chapter: "X",
-		title: "Masakan macam-macam bubur",
-		slug: "segera-hadir",
-	},
-	{
-		chapter: null,
-		title: "Daftar isi terperinci",
-		slug: "daftar-isi",
-	},
-];
+const chapterData = chapters.map((chapter) => ({
+	...chapter,
+	collection: chapter.type === "category" ? "daftar-isi" : null,
+}));
 ---
 
-<Layout
-	title="Resep Masak Tradisional Khas Papua"
-	description="Selamat datang di Dapoer Papoea. Temukan berbagai resep masakan tradisional khas Papua, mulai dari masakan papeda hingga kue-kue dan sambal, serta panduan makanan sehat untuk keluarga Anda."
->
+<Layout title="Resep Masak Tradisional Khas Papua" description="...">
 	<main>
 		<Hero />
 		<section
-			class="max-w-screen-lg mx-auto animate space-y-6 px-4 md:px-24 lg:px-8 py-8 md:py-16"
+			class="max-w-screen-lg mx-auto animate space-y-6 px-4 md:px-24 lg:px-8 py-8 md:py-12"
 		>
 			<h2 class="text-2xl md:text-3xl font-semibold text-black">
 				Daftar Isi
 			</h2>
-
 			<ul class="not-prose flex flex-col gap-4">
 				{
-					chapters.map((chapter) => (
-						<li class="space-y-1">
+					chapterData.map((chapter) => (
+						<li>
 							<ArrowCard
 								entry={{
-									collection: "daftar-isi",
+									collection:
+										chapter.type === "category"
+											? "daftar-isi"
+											: null,
 									slug: chapter.slug,
 									data: {
 										title: chapter.chapter
 											? `${chapter.chapter}. ${chapter.title}`
 											: chapter.title,
-										description: chapter.chapter
-											? `Lihat resep untuk ${chapter.title}`
-											: `Baca ${chapter.title}`,
+										description:
+											chapter.type === "category"
+												? `Lihat daftar resep untuk ${chapter.title}`
+												: `Baca ${chapter.title}`,
 									},
 								}}
 							/>
 						</li>
 					))
 				}
+				<li>
+					<!-- Tambahkan menu khusus untuk "Daftar Isi Terperinci" -->
+					<ArrowCard
+						entry={{
+							collection: null,
+							slug: "daftar-isi",
+							data: {
+								title: "Daftar Isi Terperinci",
+								description:
+									"Lihat semua resep yang tersedia dan dipisahkan berdasarkan kategori.",
+							},
+						}}
+					/>
+				</li>
 			</ul>
 		</section>
 	</main>

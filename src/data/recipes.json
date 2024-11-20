@@ -1,0 +1,70 @@
+[
+    {
+        "title": "Papeda",
+        "slug": "papeda",
+        "category": "papeda-keladi-nasi",
+        "description": "Papeda adalah makanan khas yang dibuat dari sagu mentah dan jeruk nipis.",
+        "ingredients": [
+            {
+                "name": "Sagu mentah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Jeruk nipis",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air panas",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Sagu dilarutkan dengan air dingin secukupnya didalam loyang atau bokor (jangan terlalu cair)."
+            },
+            {
+                "step": 2,
+                "text": "Jeruk nipis diperas ke dalam larutan sagu, kemudian ditapis atau disaring ke dalam sempe atau bokor."
+            },
+            {
+                "step": 3,
+                "text": "Air direbus sampai mendidih."
+            }
+        ]
+    },
+    {
+        "title": "Papeda Kacang",
+        "slug": "papeda-kacang",
+        "category": "papeda-keladi-nasi",
+        "description": "Papeda yang ditambah dengan kacang hijau dan kelapa untuk cita rasa yang berbeda.",
+        "ingredients": [
+            {
+                "name": "Sagu mentah",
+                "quantity": "2 gelas"
+            },
+            {
+                "name": "Kacang hijau",
+                "quantity": "1 gelas"
+            },
+            {
+                "name": "Kelapa",
+                "quantity": "1 buah dibuat santan 2 gelas"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kacang dimasak sampai matang dan saring."
+            },
+            {
+                "step": 2,
+                "text": "Sagu dicampur air secukupnya sehingga dapat tersaring."
+            }
+        ]
+    }
+]

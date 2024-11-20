@@ -1,0 +1,38 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const title = "Kata Pengantar";
+const description =
+    "Pengantar ke dalam dunia masakan tradisional Papua yang autentik dan penuh rasa.";
+---
+
+<Layout title={title} description={description}>
+    <main class="max-w-screen-lg mx-auto space-y-6 px-4 py-8">
+        <h1 class="text-3xl font-bold text-gray-800">{title}</h1>
+        <p class="text-gray-700 leading-relaxed">
+            Selamat datang di <strong>Dapoer Papoea</strong>, sebuah panduan
+            kuliner untuk menjelajahi masakan tradisional khas Papua. Kami
+            menghadirkan resep-resep autentik dari berbagai wilayah Papua, mulai
+            dari hidangan utama hingga makanan ringan yang menggugah selera.
+        </p>
+        <p class="text-gray-700 leading-relaxed">
+            Buku ini dibuat dengan tujuan untuk:
+        </p>
+        <ul class="list-disc list-inside text-gray-700">
+            <li>Memperkenalkan cita rasa khas Papua kepada khalayak luas.</li>
+            <li>
+                Melestarikan resep tradisional yang mungkin mulai terlupakan.
+            </li>
+            <li>
+                Memberikan panduan memasak yang mudah diikuti oleh siapa saja,
+                baik pemula maupun yang berpengalaman.
+            </li>
+        </ul>
+        <p class="text-gray-700 leading-relaxed">
+            Kami percaya bahwa makanan adalah jembatan budaya, dan melalui
+            resep-resep ini, Anda dapat merasakan kehangatan dan keramahan
+            masyarakat Papua.
+        </p>
+        <p class="text-gray-700 font-semibold mt-6">**Dapoer Papoea Team**</p>
+    </main>
+</Layout>

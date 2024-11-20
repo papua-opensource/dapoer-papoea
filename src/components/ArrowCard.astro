@@ -1,6 +1,9 @@
 ---
+import chapters from "../data/chapters.json";
+import recipes from "../data/recipes.json";
+
 interface Entry {
-    collection: string;
+    collection: string | null;
     slug: string;
     data: {
         title: string;
@@ -8,16 +11,29 @@ interface Entry {
     };
 }
 
-// Menerima props dari komponen induk
 const { entry } = Astro.props as { entry: Entry };
 
-// Menentukan URL dengan kondisi khusus untuk slug tertentu
+// Cek apakah slug cocok dengan kategori di `chapters.json`
+const chapterMatch = chapters.find((chapter) => chapter.slug === entry.slug);
+
+// Cek apakah slug cocok dengan resep di `recipes.json`
+const recipeMatch = recipes.find((recipe) => recipe.slug === entry.slug);
+
+// Ambil kategori dari chapter atau recipe
+const fallbackCategory = chapterMatch?.slug || recipeMatch?.category || null;
+
+// Bangun URL dengan logika yang diperbaiki
 const url =
     entry.slug === "daftar-isi"
-        ? `/${entry.slug}/` // Jika slug adalah "daftar-isi", gunakan path langsung
-        : entry.slug === "segera-hadir"
-          ? `/${entry.slug}/` // Jika slug adalah "segera-hadir", gunakan path langsung tanpa collection
-          : `/${entry.collection}/${entry.slug}/`; // Untuk slug lain, tambahkan collection
+        ? `/daftar-isi/` // Pastikan slug "daftar-isi" diarahkan ke root path
+        : entry.collection === "daftar-isi"
+          ? `/daftar-isi/${entry.slug}/`
+          : entry.slug === "kata-pengantar" ||
+              entry.slug === "makanan-baik-bagi-keluarga"
+            ? `/${entry.slug}/`
+            : fallbackCategory
+              ? `/${fallbackCategory}/${entry.slug}/`
+              : `/${entry.slug}/`; // Fallback terakhir jika semuanya null
 ---
 
 <a

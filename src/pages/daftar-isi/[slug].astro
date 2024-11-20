@@ -1,0 +1,101 @@
+---
+import recipes from "../../data/recipes.json";
+import chapters from "../../data/chapters.json";
+import Layout from "../../layouts/Layout.astro";
+import ArrowCard from "../../components/ArrowCard.astro";
+
+const { slug } = Astro.params;
+
+// Ambil data kategori
+const category = chapters.find((chapter) => chapter.slug === slug);
+
+// Filter resep berdasarkan kategori
+const filteredRecipes = recipes.filter((recipe) => recipe.category === slug);
+
+if (!category) {
+    throw new Error(`Category not found for slug: ${slug}`);
+}
+---
+
+<Layout
+    title={category.title}
+    description={`Resep untuk kategori ${category.title}`}
+>
+    <main>
+        <section
+            class="max-w-screen-lg mx-auto animate space-y-6 px-4 md:px-24 lg:px-8 py-8 md:py-12"
+        >
+            <h2 class="text-2xl font-semibold">
+                {category.chapter}. {category.title}
+            </h2>
+
+            <!-- Input Pencarian -->
+            <div>
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Cari resep masakan..."
+                    class="w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"
+                />
+            </div>
+
+            <!-- Container untuk Hasil Pencarian -->
+            <div id="resultsContainer">
+                {
+                    filteredRecipes.length > 0 ? (
+                        <ul class="not-prose flex flex-col gap-4 pt-4">
+                            {filteredRecipes.map((recipe) => (
+                                <li data-recipe={recipe.title.toLowerCase()}>
+                                    <ArrowCard
+                                        entry={{
+                                            collection: null,
+                                            slug: recipe.slug,
+                                            data: {
+                                                title: recipe.title,
+                                                description: recipe.description,
+                                            },
+                                        }}
+                                    />
+                                </li>
+                            ))}
+                        </ul>
+                    ) : (
+                        <p class="text-center text-gray-500 italic py-8">
+                            Belum ada resep yang tersedia untuk kategori ini.
+                        </p>
+                    )
+                }
+            </div>
+
+            <p class="text-end text-xs text-gray-500">
+                Total <span id="totalRecipes">{filteredRecipes.length}</span> Resep
+            </p>
+        </section>
+    </main>
+</Layout>
+<script is:inline>
+    document.addEventListener("DOMContentLoaded", () => {
+        const searchInput = document.getElementById("searchInput");
+        const resultsContainer = document.getElementById("resultsContainer");
+        const recipes = resultsContainer.querySelectorAll("li");
+        const totalRecipes = document.getElementById("totalRecipes");
+
+        searchInput.addEventListener("input", (event) => {
+            const query = event.target.value.toLowerCase();
+            let visibleCount = 0;
+
+            recipes.forEach((recipe) => {
+                const recipeTitle = recipe.getAttribute("data-recipe");
+                if (recipeTitle.includes(query)) {
+                    recipe.style.display = "block";
+                    visibleCount++;
+                } else {
+                    recipe.style.display = "none";
+                }
+            });
+
+            // Perbarui jumlah resep yang terlihat
+            totalRecipes.textContent = visibleCount;
+        });
+    });
+</script>
