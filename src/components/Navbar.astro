@@ -11,11 +11,22 @@ const currentPath = Astro.url.pathname; // Mendapatkan path URL saat ini
   >
     <!-- Logo w/ Collapse Button -->
     <div class="flex items-center justify-between">
-      <a
+      <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img
+          src="/gambar/logo_dapoerpapoea.png"
+          class="h-10 rounded-full"
+          alt="Dapoer Papoea Logo"
+        />
+        <span
+          class="self-center text-xl font-comforter font-semibold whitespace-nowrap"
+          >Dapoer Papoea</span
+        >
+        <!-- <a
         class="flex-none font-comforter font-semibold text-xl text-black focus:outline-none focus:opacity-80"
         href="/"
         aria-label="Brand">Dapoer Papoea</a
-      >
+      > -->
+      </a>
 
       <!-- Collapse Button -->
       <div class="md:hidden">
