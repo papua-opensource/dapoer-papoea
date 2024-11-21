@@ -6,7 +6,21 @@ import Layout from "../../layouts/Layout.astro";
 const { category, slug } = Astro.params;
 
 // Cari resep berdasarkan slug
-const recipe = recipes.find((r) => r.slug === slug);
+const recipeIndex = recipes.findIndex(
+    (r) => r.slug === slug && r.category === category,
+);
+const recipe = recipes[recipeIndex];
+
+// Cari resep sebelumnya dan berikutnya dalam kategori yang sama
+const prevRecipe =
+    recipeIndex > 0 && recipes[recipeIndex - 1].category === category
+        ? recipes[recipeIndex - 1]
+        : null;
+const nextRecipe =
+    recipeIndex < recipes.length - 1 &&
+    recipes[recipeIndex + 1].category === category
+        ? recipes[recipeIndex + 1]
+        : null;
 
 if (!recipe) {
     throw new Error(`Recipe not found for slug: ${slug}`);
@@ -17,11 +31,30 @@ if (!recipe) {
     <main
         class="max-w-screen-lg mx-auto space-y-6 px-4 md:px-24 lg:px-8 py-8 md:py-12"
     >
-        <section class="space-y-4 py-4">
-            <h1 class="text-3xl font-bold">{recipe.title}</h1>
+        <section class="space-y-4 pb-4">
+            <a
+                href=`/daftar-isi/${recipe.category}`
+                class="inline-flex gap-x-2 items-center py-1.5 px-3 bg-white text-gray-600 border border-gray-200 text-xs sm:text-sm rounded-md"
+            >
+                <svg
+                    class="shrink-0 size-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    ><path
+                        fill="currentColor"
+                        d="M16 21q-.825 0-1.412-.587T14 19v-4q0-.825.588-1.412T16 13h4q.825 0 1.413.588T22 15v4q0 .825-.587 1.413T20 21zm0-2h4v-4h-4zM3 18q-.425 0-.712-.288T2 17t.288-.712T3 16h7q.425 0 .713.288T11 17t-.288.713T10 18zm13-7q-.825 0-1.412-.587T14 9V5q0-.825.588-1.412T16 3h4q.825 0 1.413.588T22 5v4q0 .825-.587 1.413T20 11zm0-2h4V5h-4zM3 8q-.425 0-.712-.288T2 7t.288-.712T3 6h7q.425 0 .713.288T11 7t-.288.713T10 8zm15-1"
+                    ></path></svg
+                >
+                {recipe.category}
+            </a>
+            <h1 class="text-xl md:text-3xl font-bold">{recipe.title}</h1>
             <p class="text-gray-700">{recipe.description}</p>
-            <h2 class="text-2xl mt-6">Bahan-bahan</h2>
-            <ul>
+
+            <!-- Bahan-bahan -->
+            <h2 class="text-xl md:text-2xl mt-6">Bahan-bahan</h2>
+            <ul class="list-disc list-inside">
                 {
                     recipe.ingredients.map((ingredient) => (
                         <li>
@@ -30,8 +63,10 @@ if (!recipe) {
                     ))
                 }
             </ul>
-            <h2 class="text-2xl mt-6">Instruksi</h2>
-            <ol>
+
+            <!-- Instruksi -->
+            <h2 class="text-xl md:text-2xl mt-6">Instruksi</h2>
+            <ol class="list-none">
                 {
                     recipe.instructions.map((instruction) => (
                         <li>
@@ -41,9 +76,17 @@ if (!recipe) {
                 }
             </ol>
         </section>
+
+        <!-- Navigasi Antar Resep -->
         <ChapterNavigation
-            nextTitle="Papeda Kacang"
-            nextLink="/papeda-keladi-nasi/papeda-kacang/"
+            prevTitle={prevRecipe?.title}
+            prevLink={prevRecipe
+                ? `/${prevRecipe.category}/${prevRecipe.slug}/`
+                : null}
+            nextTitle={nextRecipe?.title}
+            nextLink={nextRecipe
+                ? `/${nextRecipe.category}/${nextRecipe.slug}/`
+                : null}
         />
     </main>
 </Layout>

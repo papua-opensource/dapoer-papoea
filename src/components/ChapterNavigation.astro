@@ -1,9 +1,9 @@
 ---
 export interface Props {
     prevTitle?: string;
-    prevLink?: string;
+    prevLink?: string | null;
     nextTitle?: string;
-    nextLink?: string;
+    nextLink?: string | null;
 }
 
 const { prevTitle, prevLink, nextTitle, nextLink } = Astro.props;

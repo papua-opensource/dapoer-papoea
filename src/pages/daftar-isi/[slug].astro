@@ -7,11 +7,20 @@ import ChapterNavigation from "../../components/ChapterNavigation.astro";
 
 const { slug } = Astro.params;
 
-// Ambil data kategori
-const category = chapters.find((chapter) => chapter.slug === slug);
+// Ambil data kategori berdasarkan slug
+const categoryIndex = chapters.findIndex((chapter) => chapter.slug === slug);
+const category = chapters[categoryIndex];
 
-// Filter resep berdasarkan kategori
-const filteredRecipes = recipes.filter((recipe) => recipe.category === slug);
+// Ambil chapter sebelumnya dan berikutnya
+const prevChapter = categoryIndex > 0 ? chapters[categoryIndex - 1] : null;
+const nextChapter =
+    categoryIndex < chapters.length - 1 ? chapters[categoryIndex + 1] : null;
+
+// Filter resep berdasarkan kategori (jika kategori adalah tipe "category")
+const filteredRecipes =
+    category?.type === "category"
+        ? recipes.filter((recipe) => recipe.category === slug)
+        : [];
 
 if (!category) {
     throw new Error(`Category not found for slug: ${slug}`);
@@ -26,8 +35,9 @@ if (!category) {
         class="max-w-screen-lg mx-auto space-y-6 px-4 md:px-24 lg:px-8 py-8 md:py-12"
     >
         <section class="space-y-6">
-            <h2 class="text-2xl font-semibold">
-                {category.chapter}. {category.title}
+            <h2 class="text-xl md:text-2xl font-semibold">
+                {category.chapter ? `${category.chapter}.` : ""}
+                {category.title}
             </h2>
 
             <!-- Input Pencarian -->
@@ -73,14 +83,20 @@ if (!category) {
             </p>
         </section>
 
+        <!-- Komponen Navigasi -->
         <ChapterNavigation
-            prevTitle="Masakan Papeda, Keladi, dan Nasi"
-            prevLink="/daftar-isi/papeda-keladi-nasi/"
-            nextTitle="Masakan Sup"
-            nextLink="/daftar-isi/masakan-sup/"
+            prevTitle={prevChapter?.title}
+            prevLink={prevChapter && prevChapter.type === "category"
+                ? `/daftar-isi/${prevChapter.slug}/`
+                : `/${prevChapter?.slug}/`}
+            nextTitle={nextChapter?.title}
+            nextLink={nextChapter && nextChapter.type === "category"
+                ? `/daftar-isi/${nextChapter.slug}/`
+                : `/${nextChapter?.slug}/`}
         />
     </main>
 </Layout>
+
 <script is:inline>
     document.addEventListener("DOMContentLoaded", () => {
         const searchInput = document.getElementById("searchInput");
