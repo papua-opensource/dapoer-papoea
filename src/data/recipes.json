@@ -45,7 +45,7 @@
         "title": "Papeda Kacang",
         "slug": "papeda-kacang",
         "category": "papeda-keladi-nasi",
-        "description": "Papeda yang ditambah dengan kacang hijau dan kelapa untuk cita rasa yang berbeda.",
+        "description": "Papeda kacang adalah varian papeda yang dibuat dengan tambahan kacang hijau.",
         "ingredients": [
             {
                 "name": "Sagu mentah",
@@ -57,7 +57,7 @@
             },
             {
                 "name": "Kelapa",
-                "quantity": "1 buah dibuat santan 2 gelas"
+                "quantity": "1 buah (dibuat santan 2 gelas)"
             },
             {
                 "name": "Garam",
@@ -67,7 +67,7 @@
         "instructions": [
             {
                 "step": 1,
-                "text": "Kacang dimasak sampai matang dan saring."
+                "text": "Kacang dimasak sampai matang tetapi jangan hancur."
             },
             {
                 "step": 2,
@@ -75,30 +75,26 @@
             },
             {
                 "step": 3,
-                "text": "Campuran tersebut disaring ke rebusan kacang hijau."
+                "text": "Campuran tersebut disaring ke rebusan kacang hijau tadi."
             },
             {
                 "step": 4,
-                "text": "Rebusan kacang hijau tetap di atas api yang dinyalakan tidak terlalu besar, sambil diaduk-aduk."
+                "text": "Rebusan kacang hijau tetap diatas api yang dinyalakan tidak terlalu besar, sambil diaduk-aduk."
             },
             {
                 "step": 5,
-                "text": "Dimasak sampai sagunya matang. Papeda kacang enak dimakan bersama ikan bakar."
+                "text": "Dimasak sampai sagu matang betul."
             }
         ]
     },
     {
-        "title": "Merebus Keladi, Betatas atau Ubi",
+        "title": "Merebus Keladi, Betatas, atau Ubi",
         "slug": "merebus-keladi-betatas-ubi",
         "category": "papeda-keladi-nasi",
-        "description": "Cara merebus keladi, betatas, atau ubi dengan sempurna.",
+        "description": "Rebusan keladi, betatas, atau ubi yang dimasak dengan garam.",
         "ingredients": [
             {
-                "name": "Keladi",
-                "quantity": "Secukupnya"
-            },
-            {
-                "name": "Betatas atau ubi",
+                "name": "Keladi, betatas, atau ubi",
                 "quantity": "Secukupnya"
             },
             {
@@ -109,34 +105,34 @@
         "instructions": [
             {
                 "step": 1,
-                "text": "Keladi dikupas dan dipotong-potong sesuai dengan kebutuhan."
+                "text": "Keladi dikupas dan dipotong-potong sesuai kebutuhan."
             },
             {
                 "step": 2,
-                "text": "Rebus air secukupnya sampai mendidih."
+                "text": "Rebus air seperempat banyaknya keladi sampai mendidih."
             },
             {
                 "step": 3,
-                "text": "Kemudian masukkan potongan-potongan keladi tadi."
+                "text": "Masukkan potongan keladi tadi."
             },
             {
                 "step": 4,
-                "text": "Biarkan sampai mendidih, sampai keladi masak tetapi jangan hancur."
+                "text": "Biarkan sampai mendidih, sambil nyala api dikurangi."
+            },
+            {
+                "step": 5,
+                "text": "Biarkan sampai masak tetapi jangan hancur."
             }
         ]
     },
     {
         "title": "Pure Kasbi dengan Kelapa Bakar",
-        "slug": "pure-kasbi-dengan-kelapa-bakar",
+        "slug": "pure-kasbi-kelapa-bakar",
         "category": "papeda-keladi-nasi",
-        "description": "Pure kasbi dengan kelapa bakar untuk cita rasa tradisional.",
+        "description": "Pure kasbi adalah makanan khas dengan campuran kelapa bakar.",
         "ingredients": [
             {
-                "name": "Kasbi",
-                "quantity": "Secukupnya"
-            },
-            {
-                "name": "Keladi atau betatas",
+                "name": "Kasbi, keladi atau betatas",
                 "quantity": "Secukupnya"
             },
             {
@@ -155,23 +151,35 @@
             },
             {
                 "step": 2,
-                "text": "Kelapa dikukur dan dicampur dengan garam. Gula dapat ditambah secukupnya."
+                "text": "Kelapa dikukur dan dicampur dengan garam."
             },
             {
                 "step": 3,
-                "text": "Sementara, sebuah batu ukuran kepalan tangan dibakar sampai membara."
+                "text": "Batu sebesar kepalan tangan dibakar sampai membara."
             },
             {
                 "step": 4,
-                "text": "Kasbi ditumbuk sampai lumat. Buatkan kolam di dalamnya."
+                "text": "Kasbi ditumbuk sampai lumat."
             },
             {
                 "step": 5,
-                "text": "Batu yang telah dibakar diletakkan di atas api, dijatuhi lagi dengan kelapa yang ada di dalam, lalu tunggu sampai minyak kelapa hilang."
+                "text": "Masukkan setengah dari kelapa yang telah dikukur."
             },
             {
                 "step": 6,
-                "text": "Kelapa bakar dapat dihidangkan sebagai jajan, tetapi tidak enak apabila ditambah gula dapat dimakan dengan ikan bakar."
+                "text": "Buatkan kolom di tengah lumatan kasbi lalu kelapa dibakar ditaruh ke kasbi."
+            },
+            {
+                "step": 7,
+                "text": "Tutup lagi dengan sisa kelapa."
+            },
+            {
+                "step": 8,
+                "text": "Biarkan lagi sampai asapnya hilang."
+            },
+            {
+                "step": 9,
+                "text": "Setelah itu dikeluarkan kasbi dan kelapa lalu diaduk bersama sampai rata."
             }
         ]
     },
@@ -179,7 +187,7 @@
         "title": "Nasi Putih",
         "slug": "nasi-putih",
         "category": "papeda-keladi-nasi",
-        "description": "Nasi putih yang dimasak sederhana dan lembut.",
+        "description": "Nasi putih yang dimasak dengan teknik sederhana.",
         "ingredients": [
             {
                 "name": "Beras",
@@ -193,27 +201,3169 @@
             },
             {
                 "step": 2,
-                "text": "Sewaktu dicuci ingat beras jangan digosok-gosok karena itu akan menghilangkan zat tepung pada beras."
+                "text": "Sewaktu dicuci, ingat beras jangan digosok-gosok sebab itu akan menghilangkan zat tepung pada beras. Cukup diaduk-aduk air saja."
             },
             {
                 "step": 3,
-                "text": "Cukup diaduk-aduk air saja."
+                "text": "Setelah beras dicuci, masukkan pula air yang diperkirakan sebatas 2 ruas jari tengah."
             },
             {
                 "step": 4,
-                "text": "Setelah beras dicuci masukkan pula air yang diperkirakan sebatas 2 ruas jari tengah."
+                "text": "Siap untuk dimasak. Nyalakan api dengan baik dan merata pada belanga."
             },
             {
                 "step": 5,
-                "text": "Siap untuk dimasak."
+                "text": "Dimasak sampai mendidih, kurangi api, dan biarkan sampai nasi kering."
+            }
+        ]
+    },
+    {
+        "title": "Nasi Santan",
+        "slug": "nasi-santan",
+        "category": "papeda-keladi-nasi",
+        "description": "Nasi yang dimasak dengan santan dan rempah-rempah untuk aroma khas.",
+        "ingredients": [
+            {
+                "name": "Beras",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kelapa",
+                "quantity": "Secukupnya (dijadikan santan)"
+            },
+            {
+                "name": "Daun pandan atau daun salam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Beras dibersihkan dan ditampih lalu dicuci."
+            },
+            {
+                "step": 2,
+                "text": "Parut atau kukur kelapa dan buatkan santan, ukuran dua ruas jari tengah."
+            },
+            {
+                "step": 3,
+                "text": "Masukkan beras ke dalam belanga, masukkan pula santan, garam, dan daun pandan atau daun salam."
+            },
+            {
+                "step": 4,
+                "text": "Lalu masak seperti nasi putih."
+            }
+        ]
+    },
+    {
+        "title": "Nasi Kuning",
+        "slug": "nasi-kuning",
+        "category": "papeda-keladi-nasi",
+        "description": "Nasi khas berwarna kuning dari campuran kunyit dan rempah-rempah.",
+        "ingredients": [
+            {
+                "name": "Beras",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kelapa",
+                "quantity": "Secukupnya (dijadikan santan)"
+            },
+            {
+                "name": "Daun pandan atau daun salam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kunyit",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Beras dibersihkan dan ditampih lalu dicuci."
+            },
+            {
+                "step": 2,
+                "text": "Kelapa dan kunyit dicampur menjadi santan kuning."
+            },
+            {
+                "step": 3,
+                "text": "Buatkan santan kuning. Masukkan beras yang telah dicuci ke dalam belanga."
+            },
+            {
+                "step": 4,
+                "text": "Masukkan santan kuning hingga batas jari tengah."
+            },
+            {
+                "step": 5,
+                "text": "Masukkan pula daun pandan atau daun salam dengan serai dan garam secukupnya."
             },
             {
                 "step": 6,
-                "text": "Nyalakan api dengan baik dan merata pada belanga."
+                "text": "Siap dimasak. Nyalakan api dengan baik dan merata."
+            }
+        ]
+    },
+    {
+        "title": "Ketupat",
+        "slug": "ketupat",
+        "category": "papeda-keladi-nasi",
+        "description": "Ketupat, nasi yang dimasak dalam bungkus anyaman daun kelapa muda.",
+        "ingredients": [
+            {
+                "name": "Beras",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kelapa dan daun kelapa muda",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Buat ketupat dari daun kelapa muda."
+            },
+            {
+                "step": 2,
+                "text": "Beras dibersihkan dan dicuci."
+            },
+            {
+                "step": 3,
+                "text": "Masukkan beras yang telah dicuci ke dalam ketupat."
+            },
+            {
+                "step": 4,
+                "text": "Setelah ketupat kira-kira setengah penuh, siapkan belanga."
+            },
+            {
+                "step": 5,
+                "text": "Masukkan ketupat yang telah diisi ke atas belanga yang dinyalakan api."
+            },
+            {
+                "step": 6,
+                "text": "Masak ketupat pada belanga sampai mendidih."
             },
             {
                 "step": 7,
-                "text": "Dimasak sampai mendidih, kurangi api dan biarkan sampai nasi kering."
+                "text": "Ketupat pada api direbus dengan santan juga."
+            }
+        ]
+    },
+    {
+        "title": "Sup Ketimun",
+        "slug": "sup-ketimun",
+        "category": "masakan-sup",
+        "description": "Sup berbahan dasar ketimun dan jagung muda dengan rempah sederhana.",
+        "ingredients": [
+            {
+                "name": "Ketimun",
+                "quantity": "2 buah"
+            },
+            {
+                "name": "Jagung muda",
+                "quantity": "2 buah"
+            },
+            {
+                "name": "Daun bawang",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lada",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun sup",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Jagung diparut dan dicampur air sedikit."
+            },
+            {
+                "step": 2,
+                "text": "Ketimun dikupas dan dipotong kecil."
+            },
+            {
+                "step": 3,
+                "text": "Dimasa dengan air dan garam. Kalau sudah setengah masak, tambahkan dengan jagung dan diaduk baik-baik sampai mendidih kembali."
+            },
+            {
+                "step": 4,
+                "text": "Rempah-rempah ditambahkan kecuali daun sup. Dimasak sampai masak."
+            },
+            {
+                "step": 5,
+                "text": "Daun sup diiris halus dan baru ditambahkan waktu sup diangkat dari api."
+            }
+        ]
+    },
+    {
+        "title": "Sup Kacang Hijau",
+        "slug": "sup-kacang-hijau",
+        "category": "masakan-sup",
+        "description": "Sup kacang hijau dengan tambahan daging dan rempah.",
+        "ingredients": [
+            {
+                "name": "Kacang hijau",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daging babi atau daging kaleng",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tomat",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun bawang",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun sup",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lada",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kacang hijau direndam kira-kira satu malam, lalu dimasak sampai setengah masak dengan daging dan garam."
+            },
+            {
+                "step": 2,
+                "text": "Bawang merah dan tomat diiris halus, lalu dimasukkan bersama-sama dengan lada yang ditumbuk."
+            },
+            {
+                "step": 3,
+                "text": "Daun sup diiris halus, dimasak sebentar lagi, lalu sup diangkat."
+            }
+        ]
+    },
+    {
+        "title": "Sup Kacang Merah",
+        "slug": "sup-kacang-merah",
+        "category": "masakan-sup",
+        "description": "Sup kacang merah dengan bahan dan proses yang mirip dengan sup kacang hijau.",
+        "ingredients": [
+            {
+                "name": "Kacang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daging babi atau daging kaleng",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tomat",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun bawang",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun sup",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lada",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Sama seperti di sup kacang hijau."
+            },
+            {
+                "step": 2,
+                "text": "Ingat bahwa kacang merah memerlukan lebih banyak waktu sampai selesai masak daripada kacang hijau, apalagi kalau kacang itu sedikit tua."
+            }
+        ]
+    },
+    {
+        "title": "Sup Ikan",
+        "slug": "sup-ikan",
+        "category": "masakan-sup",
+        "description": "Sup berbahan dasar ikan segar dengan rempah-rempah sederhana.",
+        "ingredients": [
+            {
+                "name": "Ikan mentah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun sup",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun bawang",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lada",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tepung sagu",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan mentah dengan tulang-tulangnya dipotong kecil dan dimasak dengan garam dan air sedikit, api kecil."
+            },
+            {
+                "step": 2,
+                "text": "Sesudah dimasak setengah jam lamanya, daging dan tulang-tulang diangkat dari dalam kaldunya."
+            },
+            {
+                "step": 3,
+                "text": "Tepung dilarutkan dengan air dingin sedikit dan ditambahkan dengan kaldu ikan itu dan diaduk baik-baik waktu menambahkannya."
+            },
+            {
+                "step": 4,
+                "text": "Daging ikan ditambah lagi dengan rempah-rempah yang dihaluskan, ditambahkan juga."
+            },
+            {
+                "step": 5,
+                "text": "Daun sup diisi waktu sup diangkat dari api."
+            }
+        ]
+    },
+    {
+        "title": "Sup Ayam",
+        "slug": "sup-ayam",
+        "category": "masakan-sup",
+        "description": "Sup ayam dengan tambahan beras, makaroni, atau mi untuk rasa yang lebih kaya.",
+        "ingredients": [
+            {
+                "name": "Daging ayam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Beras",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Makaroni atau mi",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lada",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun sup",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ayam dibersihkan dan dipotong-potong; jangan terlalu kecil."
+            },
+            {
+                "step": 2,
+                "text": "Lalu dimasak dengan garam. Masaklah lambat-lambat, api kecil."
+            },
+            {
+                "step": 3,
+                "text": "Sesudah dimasak 1 atau 2 jam lamanya, dagingnya diangkat dari dalam kuah dan digunakan untuk masakan yang lain."
+            },
+            {
+                "step": 4,
+                "text": "Sebagian dari ayam itu dipotong kecil-kecil dan diisi kembali ke dalam sup."
+            },
+            {
+                "step": 5,
+                "text": "Kalau daging ayam itu ditambahkan beras secukupnya, atau makaroni atau mi."
+            },
+            {
+                "step": 6,
+                "text": "Ditinggalkan sampai mendidih waktu hampir masak, ditambahkan lagi lada, bawang, dan daun sup yang sudah diiris halus."
+            }
+        ]
+    },
+    {
+        "title": "Sup Kacang Tanah",
+        "slug": "sup-kacang-tanah",
+        "category": "masakan-sup",
+        "description": "Sup kacang tanah dengan campuran rempah-rempah untuk cita rasa unik.",
+        "ingredients": [
+            {
+                "name": "Kacang tanah",
+                "quantity": "1 mangkuk"
+            },
+            {
+                "name": "Ikan mentah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "5 siung"
+            },
+            {
+                "name": "Tomat",
+                "quantity": "2 buah"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "1 buah"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kacang tanah dikupas, digoreng atau goreng kupas dengan minyak yang panas."
+            },
+            {
+                "step": 2,
+                "text": "Sesudah goreng, kulit itu dan ditumbuk sampai halus."
+            },
+            {
+                "step": 3,
+                "text": "Ikan dibersihkan dan dipotong sampai halus."
+            },
+            {
+                "step": 4,
+                "text": "Ikan direbus dalam air dan garam sampai setengah masak."
+            },
+            {
+                "step": 5,
+                "text": "Tomat disiangi dan diiris, lalu ditumbuk."
+            },
+            {
+                "step": 6,
+                "text": "Rempah-rempah yang disiapkan diisi dalam sup dengan kacang tanah yang sudah ditumbuk."
+            },
+            {
+                "step": 7,
+                "text": "Perlahan-lahan dimasak sampai masak."
+            },
+            {
+                "step": 8,
+                "text": "Sup itu dimakan dengan keladi, pisang, nasi, atau roti."
+            }
+        ]
+    },
+    {
+        "title": "Pindang Ikan",
+        "slug": "pindang-ikan",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Pindang ikan menggunakan ikan mentah atau ikan asin dengan bumbu rempah-rempah.",
+        "ingredients": [
+            {
+                "name": "Ikan mentah atau ikan asin",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun bawang",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Sereh",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Laos",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun lemon",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun salam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air lemon",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kecap",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dibersihkan dan direndam dengan garam (untuk ikan asin, direndam saja)."
+            },
+            {
+                "step": 2,
+                "text": "Lombok dibelah dan dibakar. Taruhkan kuali berisi air sedikit di atas api."
+            },
+            {
+                "step": 3,
+                "text": "Isilah rempah-rempah semua dan jikalau hampir mendidih, tambahkan ikan yang sudah dipotong, kecap, dan air lemon sedikit."
+            },
+            {
+                "step": 4,
+                "text": "Dimasak terus sampai masak, lalu masukkan daun bawang yang diiris halus."
+            }
+        ]
+    },
+    {
+        "title": "Pindang Kuning Ikan",
+        "slug": "pindang-kuning-ikan",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Pindang ikan dengan bumbu kunyit dan rempah-rempah lainnya.",
+        "ingredients": [
+            {
+                "name": "Ikan mentah atau ikan asin",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok hijau",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Laos",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Sereh",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kunyit",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Terasi",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air lemon",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dibersihkan dan direndam dengan garam."
+            },
+            {
+                "step": 2,
+                "text": "Lombok, terasi, dan kunyit dibakar sebentar."
+            },
+            {
+                "step": 3,
+                "text": "Bawang dan lombok diiris, sedangkan rempah lainnya ditumbuk kecuali sereh."
+            },
+            {
+                "step": 4,
+                "text": "Semua bahan dimasak dengan air sedikit."
+            },
+            {
+                "step": 5,
+                "text": "Lalu ditambahkan ikan yang sudah dipotong dan dimasak sampai matang dan ditambah lagi air lemon sedikit."
+            }
+        ]
+    },
+    {
+        "title": "Ikan Bumbu Rujak",
+        "slug": "ikan-bumbu-rujak",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan yang dimasak dengan bumbu rujak seperti kunyit, kemiri, dan rempah-rempah lainnya.",
+        "ingredients": [
+            {
+                "name": "Ikan mentah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Minyak goreng",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kemiri atau kacang tanah",
+                "quantity": "Yang sudah digoreng"
+            },
+            {
+                "name": "Kunyit",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Jahe",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air lemon",
+                "quantity": "Sedikit"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dibersihkan dan ditaruh dengan garam dan air lemon."
+            },
+            {
+                "step": 2,
+                "text": "Rempah-rempah ditumbuk, rica dan bawang merah diiris."
+            },
+            {
+                "step": 3,
+                "text": "Ikan digoreng sebentar, lalu ditambah air sedikit dan dibiarkan di atas api sampai masak."
+            }
+        ]
+    },
+    {
+        "title": "Ikan Goreng Cuka",
+        "slug": "ikan-goreng-cuka",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan goreng dengan tambahan bumbu cuka dan rempah.",
+        "ingredients": [
+            {
+                "name": "Ikan mentah atau ikan asin",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Minyak goreng",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Jahe",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air lemon",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dibersihkan, lalu digoreng."
+            },
+            {
+                "step": 2,
+                "text": "Bawang dan rica diiris dan digoreng sebentar dalam minyak sedikit."
+            },
+            {
+                "step": 3,
+                "text": "Rempah-rempah lainnya ditumbuk dan ditambahkan santan dengan air lemon, lalu masukkan ikan yang digoreng tadi."
+            },
+            {
+                "step": 4,
+                "text": "Masak sebentar lagi dan disiram ke atas ikan."
+            },
+            {
+                "step": 5,
+                "text": "Kalau pakai ikan asin, ikan itu direndam dahulu lalu dimasak sebentar dalam air dan tidak perlu digoreng."
+            }
+        ]
+    },
+    {
+        "title": "Bumbu Bali dari Ikan",
+        "slug": "bumbu-bali-dari-ikan",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Bumbu Bali yang menggunakan ikan fufu/asap yang kering dengan rempah-rempah.",
+        "ingredients": [
+            {
+                "name": "Ikan fufu/asap yang kering",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Jahe",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Terasi",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Gula",
+                "quantity": "Sedikit"
+            },
+            {
+                "name": "Air lemon",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kecap manis",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dicuci dan ditaruh sebentar dalam panas, lalu dipotong."
+            },
+            {
+                "step": 2,
+                "text": "Rempah-rempah ditumbuk, kecap manis, gula, dan air lemon dimasukkan ke dalam kuah."
+            },
+            {
+                "step": 3,
+                "text": "Ikan digoreng dan dimasukkan ke dalam kuah, diaduk hingga kuah menjadi kental."
+            },
+            {
+                "step": 4,
+                "text": "Tambahkan ikan asin dan masak sebentar lagi."
+            }
+        ]
+    },
+    {
+        "title": "Ikan Puri Goreng Tepung",
+        "slug": "ikan-puri-goreng-tepung",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan puri yang digoreng dengan tepung dan rempah.",
+        "ingredients": [
+            {
+                "name": "Ikan puri mentah atau ikan puri kering",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tepung terigu",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dibersihkan."
+            },
+            {
+                "step": 2,
+                "text": "Ikan puri kering direndam dengan bawang merah dan lombok yang telah ditumbuk, dicampur dengan garam."
+            },
+            {
+                "step": 3,
+                "text": "Tepung dan air dicampur menjadi kental, lalu masukkan ikan puri ke dalam campuran."
+            },
+            {
+                "step": 4,
+                "text": "Ambil satu senduk dari campuran itu dan goreng."
+            }
+        ]
+    },
+    {
+        "title": "Ikan Pepes",
+        "slug": "ikan-pepes",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan pepes yang dibungkus daun pisang dengan rempah.",
+        "ingredients": [
+            {
+                "name": "Ikan puri mentah atau ikan puri kering",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tepung",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Terasi",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun kemangi",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun bawang",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air jeruk",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Semua bahan dicampur dengan ikan yang sudah dibersihkan."
+            },
+            {
+                "step": 2,
+                "text": "Kalau pakai ikan puri kering, terlebih dahulu rendam ikan itu, lalu dibersihkan."
+            },
+            {
+                "step": 3,
+                "text": "Bungkus dengan daun pisang dan dikukus sampai matang."
+            }
+        ]
+    },
+    {
+        "title": "Ikan Panggang",
+        "slug": "ikan-panggang",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan panggang yang dibumbui dengan rempah dan kuah segar.",
+        "ingredients": [
+            {
+                "name": "Ikan besar",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air jeruk",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tomat merah",
+                "quantity": "Untuk kuah dan hiasan"
+            },
+            {
+                "name": "Daun kemangi",
+                "quantity": "Untuk kuah dan hiasan"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dibersihkan dan dibelah, lalu digosokkan dengan air jeruk."
+            },
+            {
+                "step": 2,
+                "text": "Rempah ditumbuk untuk bumbu dan ikan dibungkus dengan daun kemangi atau kulit kelapa."
+            },
+            {
+                "step": 3,
+                "text": "Panggang ikan di atas bara."
+            },
+            {
+                "step": 4,
+                "text": "Kuah tomat yang diiris halus dan dimasak dengan bawang merah dituangkan ke atas ikan setelah matang."
+            },
+            {
+                "step": 5,
+                "text": "Kuah ini dihias dengan tomat dan rica."
+            }
+        ]
+    },
+    {
+        "title": "Bebotok Ikan",
+        "slug": "bebotok-ikan",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Bebotok ikan yang dibungkus daun pisang dan dikukus dengan rempah dan santan.",
+        "ingredients": [
+            {
+                "name": "Ikan mentah atau ikan asar/fufu",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "2 butir"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "2 siung"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "1/2 buah"
+            },
+            {
+                "name": "Lada",
+                "quantity": "1 biji, ditumbuk"
+            },
+            {
+                "name": "Ketumbar",
+                "quantity": "1 sendok teh, ditumbuk"
+            },
+            {
+                "name": "Jintan",
+                "quantity": "1/2 sendok teh"
+            },
+            {
+                "name": "Terasi",
+                "quantity": "1 ujung pisau"
+            },
+            {
+                "name": "Telur",
+                "quantity": "1 butir"
+            },
+            {
+                "name": "Santan kental",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun lemon",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dicincang sampai halus, bisa juga ikan yang sudah masak (ikan asar)."
+            },
+            {
+                "step": 2,
+                "text": "Semua rempah ditumbuk, dicampurkan satu butir telur dan ikan halus."
+            },
+            {
+                "step": 3,
+                "text": "Tambahkan santan secukupnya hingga menjadi serupa papeda, cair sedikit."
+            },
+            {
+                "step": 4,
+                "text": "Lantas dibungkus satu-satu sendok dari adonan dalam daun pisang sepangsal; tambahkan 1/2 daun lemon."
+            },
+            {
+                "step": 5,
+                "text": "Bungkus rapat dengan penikam kecil, dikukus sampai matang."
+            }
+        ]
+    },
+    {
+        "title": "Perkadel Ikan",
+        "slug": "perkadel-ikan",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Perkadel ikan dengan campuran rempah dan digoreng hingga matang.",
+        "ingredients": [
+            {
+                "name": "Ikan mentah atau ikan asar/fufu",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Rica",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Telur",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air lemon",
+                "quantity": "Sedikit"
+            },
+            {
+                "name": "Daun seledri",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun peterseli",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dimasak terlebih dahulu atau dibakar kering (asar), lalu dagingnya dicincang halus."
+            },
+            {
+                "step": 2,
+                "text": "Rempah ditumbuk dan dicampur dengan daging halus, telur, air lemon, dan daun seledri yang diiris halus."
+            },
+            {
+                "step": 3,
+                "text": "Adonan dibentuk menjadi lempeng-lempeng atau bola-bola kecil."
+            },
+            {
+                "step": 4,
+                "text": "Goreng dengan minyak sampai kulitnya berwarna merah."
+            }
+        ]
+    },
+    {
+        "title": "Risole",
+        "slug": "risole",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Risole ikan yang diisi dengan adonan daging dan digoreng hingga renyah.",
+        "ingredients": [
+            {
+                "name": "Ikan mentah atau ikan asar/fufu",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Dadar tepung (lihat resep kue)",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun bawang",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lada atau rica",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Seledri",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tepung",
+                "quantity": "3 senduk dicampur air"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dicincang, lada atau rica ditumbuk dengan garam."
+            },
+            {
+                "step": 2,
+                "text": "Bawang merah dan daun bawang diiris halus, kemudian dicampur dengan rempah lainnya."
+            },
+            {
+                "step": 3,
+                "text": "Tepung dicampur dengan air dan dimasak sampai kental."
+            },
+            {
+                "step": 4,
+                "text": "Daging ikan dibungkus dengan dadar tepung, lalu dilipat baik-baik."
+            },
+            {
+                "step": 5,
+                "text": "Risole digoreng dalam minyak sampai kulitnya merah."
+            }
+        ]
+    },
+    {
+        "title": "Kroket Ikan",
+        "slug": "kroket-ikan",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Kroket ikan dengan campuran tepung dan rempah-rempah.",
+        "ingredients": [
+            {
+                "name": "Ikan mentah atau ikan kering/fufu",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tepung terigu",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun bawang",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lada",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air lemon",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun seledri",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Telur",
+                "quantity": "1 butir"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan direbus, lalu dagingnya dicincang."
+            },
+            {
+                "step": 2,
+                "text": "Bawang merah digoreng dengan bawang daun dan seledri yang diiris halus, lalu dicampur dengan ikan."
+            },
+            {
+                "step": 3,
+                "text": "Tambahkan rempah-rempah, air lemon, dan telur yang telah dikocok."
+            },
+            {
+                "step": 4,
+                "text": "Campuran ini didinginkan sampai padat, lalu dibentuk lonjong dan dilapisi tepung sebelum digoreng."
+            }
+        ]
+    },
+    {
+        "title": "Sate Ikan",
+        "slug": "sate-ikan",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Sate ikan dengan bumbu kecap dan rempah yang dipanggang di atas bara.",
+        "ingredients": [
+            {
+                "name": "Ikan besar dan mentah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air lemon",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kecap manis",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dibersihkan dan dipotong-potong."
+            },
+            {
+                "step": 2,
+                "text": "Ikan dibumbui dengan kecap, kemudian ditusuk ke penikam dan dibakar di atas bara api."
+            },
+            {
+                "step": 3,
+                "text": "Tumis bawang merah dan rica, lalu campurkan kecap serta air lemon untuk kuah sate."
+            }
+        ]
+    },
+    {
+        "title": "Bia-Bia dalam Kuah Santan",
+        "slug": "bia-bia-dalam-kuah-santan",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Bia-bia dimasak dengan santan kental dan rempah.",
+        "ingredients": [
+            {
+                "name": "Bia mentah atau kering/asar",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tomat",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Santan kental",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Bia direndam dalam air selama beberapa jam."
+            },
+            {
+                "step": 2,
+                "text": "Bawang merah, bawang putih, dan tomat diiris, lalu dimasukkan bersama rempah ke dalam kuah santan."
+            },
+            {
+                "step": 3,
+                "text": "Tambahkan bia-bia ke dalam santan dan masak hingga matang."
+            }
+        ]
+    },
+    {
+        "title": "Ikan Laut yang Disasar",
+        "slug": "ikan-laut-yang-disasar",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan laut dengan tambahan tahu, tempe, dan rempah yang dimasak dalam kuah segar.",
+        "ingredients": [
+            {
+                "name": "Ikan laut",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tahu atau tempe",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Laos",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Belimbing asam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun kedondong",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dibersihkan dan dipotong-potong, tahu/tempe dipotong kecil."
+            },
+            {
+                "step": 2,
+                "text": "Semua bahan direbus dengan rempah dan belimbing asam."
+            },
+            {
+                "step": 3,
+                "text": "Setelah matang, ikan disajikan dengan kuah sebagai pengulas."
+            }
+        ]
+    },
+    {
+        "title": "Ikan Gabus yang Disasar",
+        "slug": "ikan-gabus-yang-disasar",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan gabus yang dimasak dengan rempah hingga kering, cocok untuk perjalanan jauh.",
+        "ingredients": [
+            {
+                "name": "Ikan gabus",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun salam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun kedondong",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun sereh",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan direbus tanpa air, menggunakan rempah dan garam."
+            },
+            {
+                "step": 2,
+                "text": "Ditata di api kecil sampai setengah matang."
+            },
+            {
+                "step": 3,
+                "text": "Dikeluarkan dari kuali lalu diasar sampai ikan masak dan kering."
+            },
+            {
+                "step": 4,
+                "text": "Ikan ini baik untuk perjalanan jauh atau dapat dimakan dengan kuah pengulas."
+            }
+        ]
+    },
+    {
+        "title": "Ikan Saus Tomat",
+        "slug": "ikan-saus-tomat",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan segar yang digoreng dengan bumbu saus tomat yang segar.",
+        "ingredients": [
+            {
+                "name": "Ikan segar",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Minyak goreng",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tomat",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Jahe",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Jeruk nipis",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dibersihkan dan direndam dengan perasan jeruk nipis, lalu dibilas dan digoreng."
+            },
+            {
+                "step": 2,
+                "text": "Tumis rempah dengan minyak secukupnya."
+            },
+            {
+                "step": 3,
+                "text": "Sirami ikan goreng dengan bumbu yang sudah ditumis."
+            },
+            {
+                "step": 4,
+                "text": "Hidangkan dengan hiasan ketimun dan tomat yang diiris tipis."
+            }
+        ]
+    },
+    {
+        "title": "Ikan Bumbu Bali",
+        "slug": "ikan-bumbu-bali",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan mentah yang dimasak dengan bumbu khas Bali hingga kental.",
+        "ingredients": [
+            {
+                "name": "Ikan mentah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Jahe",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tomat",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun salam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Gula",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kecap",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dibersihkan dan dipotong, lalu dibumbui dengan garam."
+            },
+            {
+                "step": 2,
+                "text": "Rempah ditumbuk kecuali daun salam, lalu ditumis sampai kental."
+            },
+            {
+                "step": 3,
+                "text": "Masukkan ikan yang telah dipotong ke dalam tumisan rempah."
+            },
+            {
+                "step": 4,
+                "text": "Tambahkan kecap, aduk hingga matang, lalu sajikan."
+            }
+        ]
+    },
+    {
+        "title": "Pangai Ikan",
+        "slug": "pangai-ikan",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan yang dimasak dengan santan kental dan bumbu rempah.",
+        "ingredients": [
+            {
+                "name": "Ikan mentah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Minyak",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kelapa (dijadikan santan kental)",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kemiri",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Jahe",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Laos",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kunyit",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Sereh",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dibersihkan dan dipotong-potong (jika besar)."
+            },
+            {
+                "step": 2,
+                "text": "Rempah-rempah seperti jahe, laos, dan kemiri dihaluskan."
+            },
+            {
+                "step": 3,
+                "text": "Ikan dicampur dengan bumbu dan sedikit minyak, lalu dimasak di atas api kecil."
+            },
+            {
+                "step": 4,
+                "text": "Tambahkan santan kental dan masak hingga matang."
+            }
+        ]
+    },
+    {
+        "title": "Tongkol Bakar",
+        "slug": "tongkol-bakar",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan tongkol yang dibakar dengan bumbu rempah.",
+        "ingredients": [
+            {
+                "name": "Ikan tongkol (cekalang)",
+                "quantity": "1 ekor"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "5 siung"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "5 buah"
+            },
+            {
+                "name": "Mentega",
+                "quantity": "3 senduk makan"
+            },
+            {
+                "name": "Kecap",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Asam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Cuci ikan dan iris satu atau dua bagian untuk meresap bumbu."
+            },
+            {
+                "step": 2,
+                "text": "Lumuri ikan dengan bumbu yang telah dihaluskan, biarkan meresap selama 1/4 jam."
+            },
+            {
+                "step": 3,
+                "text": "Panggang ikan dengan olesan mentega hingga matang."
+            },
+            {
+                "step": 4,
+                "text": "Hidangkan panas-panas untuk rasa terbaik."
+            }
+        ]
+    },
+    {
+        "title": "Ikan Cuka Kuning",
+        "slug": "ikan-cuka-kuning",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan yang dimasak dengan bumbu cuka dan rempah kuning.",
+        "ingredients": [
+            {
+                "name": "Ikan mentah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Minyak goreng",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "6 buah"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "2 siung"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "4 buah"
+            },
+            {
+                "name": "Kemiri",
+                "quantity": "2 buah"
+            },
+            {
+                "name": "Kunyit",
+                "quantity": "Seiris, dibakar"
+            },
+            {
+                "name": "Jahe",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Cuka atau air lemon",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dipotong-potong lalu digoreng hingga matang."
+            },
+            {
+                "step": 2,
+                "text": "Tumis rempah seperti bawang, kunyit, dan jahe dengan minyak."
+            },
+            {
+                "step": 3,
+                "text": "Tambahkan cuka atau air lemon, masukkan ikan goreng ke dalam bumbu."
+            },
+            {
+                "step": 4,
+                "text": "Masak hingga meresap dan sajikan."
+            }
+        ]
+    },
+    {
+        "title": "Ikan Puri",
+        "slug": "ikan-puri",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan puri yang dimasak dalam santan dengan bumbu khas.",
+        "ingredients": [
+            {
+                "name": "Ikan puri mentah atau kering",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun pisang",
+                "quantity": "Untuk bungkus"
+            },
+            {
+                "name": "Lada",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Rica",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air lemon",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan puri dibersihkan dan direndam dengan air lemon."
+            },
+            {
+                "step": 2,
+                "text": "Rempah-rempah dihaluskan dan dicampurkan dengan ikan."
+            },
+            {
+                "step": 3,
+                "text": "Bungkus ikan dengan daun pisang, kukus hingga matang."
+            },
+            {
+                "step": 4,
+                "text": "Setelah matang, masukkan santan dan masak lagi hingga mengental."
+            }
+        ]
+    },
+    {
+        "title": "Ikan Gabus dengan Daun Beté Dimasa Asli",
+        "slug": "ikan-gabus-dengan-daun-bete",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan gabus yang dimasak dengan daun beté dan menggunakan belanga tradisional.",
+        "ingredients": [
+            {
+                "name": "Ikan gabus",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun beté",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Batang beté",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kelapa tua",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Belanga asli",
+                "quantity": "Untuk memasak"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan gabus dibersihkan, kelapa diparut, lalu dicampur dengan garam dan air."
+            },
+            {
+                "step": 2,
+                "text": "Belanga asli dialas dengan pengalas asli, lalu masukkan ikan satu demi satu."
+            },
+            {
+                "step": 3,
+                "text": "Daun beté yang sudah dikeringkan dimasukkan bersama batang beté."
+            },
+            {
+                "step": 4,
+                "text": "Isi belanga dengan air, lalu masak dengan api kecil sampai matang."
+            }
+        ]
+    },
+    {
+        "title": "Ikan Kering Campur Bayam",
+        "slug": "ikan-kering-campur-bayam",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan kering yang dimasak dengan bayam dan rempah-rempah.",
+        "ingredients": [
+            {
+                "name": "Ikan kering",
+                "quantity": "2 ekor"
+            },
+            {
+                "name": "Bayam",
+                "quantity": "3 ikat"
+            },
+            {
+                "name": "Kelapa tua",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tomat",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Rica",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan direndam dalam air panas untuk menghilangkan garam."
+            },
+            {
+                "step": 2,
+                "text": "Rempah-rempah ditumis hingga harum, lalu masukkan kelapa tua."
+            },
+            {
+                "step": 3,
+                "text": "Masak sampai mendidih, tambahkan ikan kering dan bayam."
+            },
+            {
+                "step": 4,
+                "text": "Masak hingga matang, lalu sajikan."
+            }
+        ]
+    },
+    {
+        "title": "Ikan dan Daun Genemo Dibungkus",
+        "slug": "ikan-dan-daun-genemo",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Ikan dan daun genemo yang dibungkus daun pisang lalu dibakar.",
+        "ingredients": [
+            {
+                "name": "Ikan",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun genemo",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun pisang",
+                "quantity": "Untuk bungkus"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kemangi",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Sereh",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tomat",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ikan dibersihkan, sayur dan rempah-rempah juga dibersihkan."
+            },
+            {
+                "step": 2,
+                "text": "Ikan dan daun genemo dipotong-potong lalu dicampur dengan rempah-rempah."
+            },
+            {
+                "step": 3,
+                "text": "Bungkus campuran dalam daun pisang, lalu bakar di atas api kecil."
+            },
+            {
+                "step": 4,
+                "text": "Setelah matang, buka tali bungkusan dan hidangkan."
+            }
+        ]
+    },
+    {
+        "title": "Ulat Sagu, Jamur, dan Daun Genemo",
+        "slug": "ulat-sagu-jamur-dan-daun-genemo",
+        "category": "masakan-ikan-bia-ulat-sagu",
+        "description": "Hidangan unik dari ulat sagu, jamur, dan daun genemo yang dibakar hingga matang.",
+        "ingredients": [
+            {
+                "name": "Ulat sagu",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Jamur sagu",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun genemo",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun gedi",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bulu bambu",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Ulat sagu dan jamur direndam dalam air, lalu dibersihkan."
+            },
+            {
+                "step": 2,
+                "text": "Semua bahan dicampur dengan rempah dan daun genemo."
+            },
+            {
+                "step": 3,
+                "text": "Dibungkus dengan daun bambu dan dibakar di atas api kecil hingga matang."
+            }
+        ]
+    },
+    {
+        "title": "Sayur Kacang Hijau",
+        "slug": "sayur-kacang-hijau",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Sayur kacang hijau yang dimasak dengan santan dan rempah-rempah.",
+        "ingredients": [
+            {
+                "name": "Kacang hijau",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Laos",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Rica",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Sereh",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Santan",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kacang hijau direndam satu malam, lalu dicuci."
+            },
+            {
+                "step": 2,
+                "text": "Rebus kacang sampai hampir masak dan airnya tinggal sedikit."
+            },
+            {
+                "step": 3,
+                "text": "Bawang merah dan rica diiris lalu digoreng sebentar, kemudian tambahkan santan, garam, laos, dan sereh."
+            },
+            {
+                "step": 4,
+                "text": "Masukkan semua ke dalam kacang hijau, masak sampai matang sambil menjaga agar kacang tidak hancur."
+            }
+        ]
+    },
+    {
+        "title": "Kacang Panjang Disantan",
+        "slug": "kacang-panjang-disantan",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Kacang panjang dimasak dengan santan dan rempah-rempah.",
+        "ingredients": [
+            {
+                "name": "Kacang panjang",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Buah kelapa",
+                "quantity": "Untuk santan"
+            },
+            {
+                "name": "Tomat",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kelapa dibuat santan kental dan cair, rempah-rempah diiris halus."
+            },
+            {
+                "step": 2,
+                "text": "Kacang panjang dicuci dan dipotong-potong."
+            },
+            {
+                "step": 3,
+                "text": "Tumis rempah-rempah dengan minyak, lalu tambahkan santan cair."
+            },
+            {
+                "step": 4,
+                "text": "Masukkan kacang panjang, masak hingga mendidih, tambahkan santan kental dan masak sampai matang."
+            }
+        ]
+    },
+    {
+        "title": "Sayur Bening",
+        "slug": "sayur-bening",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Sayur kacang panjang dengan kuah bening dan rempah.",
+        "ingredients": [
+            {
+                "name": "Kacang panjang",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kemiri",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Laos",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun salam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun lemon",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tomat",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Gula",
+                "quantity": "Sedikit"
+            },
+            {
+                "name": "Terasi",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air jeruk",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kacang panjang dibersihkan lalu dipotong-potong."
+            },
+            {
+                "step": 2,
+                "text": "Rebus dengan sedikit air hingga matang."
+            },
+            {
+                "step": 3,
+                "text": "Tumis bumbu yang telah dihaluskan dan masukkan ke dalam sayur."
+            },
+            {
+                "step": 4,
+                "text": "Tambahkan daun salam, daun lemon, dan gula. Masak sebentar lalu angkat."
+            }
+        ]
+    },
+    {
+        "title": "Sup Kacang Tanah",
+        "slug": "sup-kacang-tanah",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Sup kacang tanah dengan ikan dan rempah yang dimasak hingga kental.",
+        "ingredients": [
+            {
+                "name": "Kacang tanah",
+                "quantity": "1 mangkuk"
+            },
+            {
+                "name": "Ikan mentah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "1 buah"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "5 buah"
+            },
+            {
+                "name": "Tomat",
+                "quantity": "2 buah"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kacang tanah dikupas dan digoreng tanpa minyak hingga harum."
+            },
+            {
+                "step": 2,
+                "text": "Ikan direndam dengan air garam, kemudian direbus hingga setengah matang."
+            },
+            {
+                "step": 3,
+                "text": "Tumis bumbu yang diiris halus, masukkan ke dalam sup kacang tanah."
+            },
+            {
+                "step": 4,
+                "text": "Masak perlahan hingga matang, sajikan dengan nasi, keladi, atau roti."
+            }
+        ]
+    },
+    {
+        "title": "Sayur Kecipir (Kacang Muda dan Daunnya)",
+        "slug": "sayur-kecipir-kacang-muda-dan-daunnya",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Sayur kecipir yang dimasak dengan santan kental dan rempah.",
+        "ingredients": [
+            {
+                "name": "Daun kecipir muda dan buahnya",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kelapa tua",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Laos",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kelapa dikukur lalu dibuat santan kental dan cair. Rempah-rempah ditumbuk dan dibakar terlebih dahulu."
+            },
+            {
+                "step": 2,
+                "text": "Daun kecipir dibersihkan dan dipotong-potong."
+            },
+            {
+                "step": 3,
+                "text": "Bumbu dimasak dengan santan cair dan daun kecipir hingga mendidih."
+            },
+            {
+                "step": 4,
+                "text": "Tambahkan santan kental, masak hingga matang, dan sajikan."
+            }
+        ]
+    },
+    {
+        "title": "Sayur Kacang Kecipir",
+        "slug": "sayur-kacang-kecipir",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Sayur kacang kecipir muda dengan santan dan rempah.",
+        "ingredients": [
+            {
+                "name": "Kacang kecipir yang muda",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kelapa tua",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Laos",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Terasi",
+                "quantity": "Sedikit"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kelapa dikukur, dibuat santan kental dan cair. Rempah-rempah ditumbuk."
+            },
+            {
+                "step": 2,
+                "text": "Kacang kecipir dibersihkan, lalu direbus dalam santan cair."
+            },
+            {
+                "step": 3,
+                "text": "Tumis bumbu dengan minyak, masukkan ke dalam masakan, tambahkan santan kental."
+            },
+            {
+                "step": 4,
+                "text": "Masak sampai matang dan mendidih."
+            }
+        ]
+    },
+    {
+        "title": "Kacang Kecipir Disantan",
+        "slug": "kacang-kecipir-disantan",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Kacang kecipir tua yang dimasak dengan santan.",
+        "ingredients": [
+            {
+                "name": "Kacang kecipir yang tua",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Minyak goreng",
+                "quantity": "Sedikit"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kacang kecipir dikupas kulitnya, bijinya direbus hingga matang."
+            },
+            {
+                "step": 2,
+                "text": "Goreng dengan minyak dan garam."
+            },
+            {
+                "step": 3,
+                "text": "Sajikan sebagai lauk atau camilan."
+            }
+        ]
+    },
+    {
+        "title": "Kacang Kecipir Dibakar",
+        "slug": "kacang-kecipir-dibakar",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Kacang kecipir setengah tua yang dibakar.",
+        "ingredients": [
+            {
+                "name": "Kacang kecipir setengah tua",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kacang kecipir dibersihkan, lalu dibakar di atas bara api hingga matang."
+            }
+        ]
+    },
+    {
+        "title": "Kacang Merah Dibungkus dengan Sagu",
+        "slug": "kacang-merah-dibungkus-dengan-sagu",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Kacang merah yang dibungkus dengan sagu dan kelapa, cocok untuk perjalanan jauh.",
+        "ingredients": [
+            {
+                "name": "Sagu mentah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kacang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kelapa tua",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kacang merah direndam semalam, lalu direbus hingga matang."
+            },
+            {
+                "step": 2,
+                "text": "Kelapa diparut dan dicampur dengan sagu."
+            },
+            {
+                "step": 3,
+                "text": "Campuran sagu, kelapa, dan kacang merah dibungkus daun, lalu diasar hingga kering."
+            },
+            {
+                "step": 4,
+                "text": "Sajikan sebagai camilan atau makanan perjalanan jauh."
+            }
+        ]
+    },
+    {
+        "title": "Tempe atau Tahu Diasar",
+        "slug": "tempe-atau-tahu-diasar",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Tempe atau tahu yang diasar dengan bumbu rempah dan kecap.",
+        "ingredients": [
+            {
+                "name": "Tempe atau tahu",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Laos",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Belimbing asam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun kedondong",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun salam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kecap",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Gula merah",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Tahu dipotong kecil, tempe diiris tipis lalu direbus dengan rempah dan kecap hingga setengah matang."
+            },
+            {
+                "step": 2,
+                "text": "Angkat tahu/tempe, diasar lagi hingga matang."
+            },
+            {
+                "step": 3,
+                "text": "Kuahnya dapat digunakan untuk memasak sayur."
+            }
+        ]
+    },
+    {
+        "title": "Tempe Goreng",
+        "slug": "tempe-goreng",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Tempe yang digoreng hingga matang.",
+        "ingredients": [
+            {
+                "name": "Tempe",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Minyak goreng",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Tempe diiris tipis, lalu direndam dalam air garam."
+            },
+            {
+                "step": 2,
+                "text": "Goreng tempe hingga berwarna merah."
+            }
+        ]
+    },
+    {
+        "title": "Tempe Goreng dengan Keladi",
+        "slug": "tempe-goreng-dengan-keladi",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Tempe yang dimasak bersama keladi atau betatas dengan bumbu manis.",
+        "ingredients": [
+            {
+                "name": "Tempe",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Keladi atau betatas",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Gula",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Minyak goreng",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Tempe diiris dan digoreng hingga matang."
+            },
+            {
+                "step": 2,
+                "text": "Tambahkan gula, garam, dan sedikit air, masak hingga gula menjadi cair."
+            },
+            {
+                "step": 3,
+                "text": "Masukkan keladi dan tempe, aduk hingga rata."
+            }
+        ]
+    },
+    {
+        "title": "Sambal Goreng Tempe",
+        "slug": "sambal-goreng-tempe",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Tempe yang dimasak dengan sambal dan bumbu pedas.",
+        "ingredients": [
+            {
+                "name": "Tempe",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Minyak goreng",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Gula merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Asam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Laos",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Tempe diiris kecil, dijemur sebentar, lalu digoreng hingga kering."
+            },
+            {
+                "step": 2,
+                "text": "Bawang dan cabai merah diiris, lalu digoreng."
+            },
+            {
+                "step": 3,
+                "text": "Tumis bumbu hingga harum, tambahkan tempe goreng, dan aduk rata."
+            },
+            {
+                "step": 4,
+                "text": "Sajikan sambal goreng dalam piring."
+            }
+        ]
+    },
+    {
+        "title": "Tempe Goreng Kecap",
+        "slug": "tempe-goreng-kecap",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Tempe goreng dengan bumbu kecap manis dan rempah.",
+        "ingredients": [
+            {
+                "name": "Tempe",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kecap",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Tempe diiris besar-besar, lalu digoreng sebentar."
+            },
+            {
+                "step": 2,
+                "text": "Bawang merah dan lombok diiris, kemudian ditumis."
+            },
+            {
+                "step": 3,
+                "text": "Masukkan tempe, tambahkan kecap, dan masak hingga matang."
+            }
+        ]
+    },
+    {
+        "title": "Tempe Goreng Tepung",
+        "slug": "tempe-goreng-tepung",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Tempe asli yang digoreng dengan tepung berbumbu untuk rasa gurih dan renyah.",
+        "ingredients": [
+            {
+                "name": "Tempe asli",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tepung beras",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tepung terigu",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Minyak goreng",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "2 siung"
+            },
+            {
+                "name": "Kencur",
+                "quantity": "1 butir"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Ketumbar",
+                "quantity": "1 sendok teh"
+            },
+            {
+                "name": "Kemiri",
+                "quantity": "4 buah"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Rempah-rempah ditumbuk, lalu dicampur dengan air dan diaduk."
+            },
+            {
+                "step": 2,
+                "text": "Tempe diiris tipis dan dimasukkan ke dalam campuran tepung hingga terlapisi."
+            },
+            {
+                "step": 3,
+                "text": "Goreng tempe dalam minyak panas hingga kering dan matang."
+            }
+        ]
+    },
+    {
+        "title": "Tumisan Tahu",
+        "slug": "tumisan-tahu",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Tahu yang dimasak dengan rempah-rempah dan kecap untuk rasa manis gurih.",
+        "ingredients": [
+            {
+                "name": "Tahu",
+                "quantity": "3 potong"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "2 siung"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "3 buah"
+            },
+            {
+                "name": "Jahe",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tomat",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Sereh",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kecap",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Bawang putih, lombok, jahe, dan tomat diiris tipis."
+            },
+            {
+                "step": 2,
+                "text": "Tumis bumbu hingga harum, tambahkan tahu dan kecap."
+            },
+            {
+                "step": 3,
+                "text": "Masak hingga bumbu meresap dan tahu matang."
+            }
+        ]
+    },
+    {
+        "title": "Tahu Goreng dengan Tauge dan Sambal Kecap",
+        "slug": "tahu-goreng-dengan-tauge-dan-sambal-kecap",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Tahu goreng yang disajikan dengan tauge dan sambal kecap yang manis pedas.",
+        "ingredients": [
+            {
+                "name": "Tahu",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tauge",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kecap",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air jeruk",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Jahe",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Tahu dipotong kecil dan digoreng hingga matang."
+            },
+            {
+                "step": 2,
+                "text": "Tauge direbus sebentar, lalu tiriskan."
+            },
+            {
+                "step": 3,
+                "text": "Tumis bawang dan lombok, tambahkan kecap, air jeruk, dan jahe."
+            },
+            {
+                "step": 4,
+                "text": "Campurkan tahu goreng, tauge, dan sambal kecap hingga merata, lalu sajikan."
+            }
+        ]
+    },
+    {
+        "title": "Tahu dan Terung Disantan",
+        "slug": "tahu-dan-terung-disantan",
+        "category": "masakan-kacangan-tempe-tahu",
+        "description": "Tahu dan terung yang dimasak dalam santan dengan bumbu rempah.",
+        "ingredients": [
+            {
+                "name": "Tahu",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Terung",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kelapa",
+                "quantity": "Untuk santan"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daun salam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Kelapa diparut, dibuat santan kental dan cair."
+            },
+            {
+                "step": 2,
+                "text": "Tahu dan terung dipotong-potong, lalu direbus dalam santan cair."
+            },
+            {
+                "step": 3,
+                "text": "Tambahkan bumbu seperti bawang, lombok, dan daun salam."
+            },
+            {
+                "step": 4,
+                "text": "Masak hingga matang, tambahkan santan kental, dan sajikan."
+            }
+        ]
+    },
+    {
+        "title": "Sambal Goreng Telur",
+        "slug": "sambal-goreng-telur",
+        "category": "masakan-telur",
+        "description": "Telur rebus yang disajikan dengan sambal goreng santan.",
+        "ingredients": [
+            {
+                "name": "Telur",
+                "quantity": "4-5 butir"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "5 buah"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "2 siung"
+            },
+            {
+                "name": "Kemiri",
+                "quantity": "5 biji"
+            },
+            {
+                "name": "Laos",
+                "quantity": "2 potong"
+            },
+            {
+                "name": "Sereh",
+                "quantity": "1 jari"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "1 buah"
+            },
+            {
+                "name": "Terasi",
+                "quantity": "1 ujung pisau"
+            },
+            {
+                "name": "Santan kental",
+                "quantity": "1 mangkok kecil"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Air lemon",
+                "quantity": "Sedikit"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Telur direbus dan dikupas, lalu dibelah dua dan ditaruh di piring."
+            },
+            {
+                "step": 2,
+                "text": "Rempah-rempah ditumbuk, bawang merah dan lombok diiris, lalu ditumis dengan minyak."
+            },
+            {
+                "step": 3,
+                "text": "Tambahkan santan dan masak hingga kental."
+            },
+            {
+                "step": 4,
+                "text": "Tuangkan di atas telur dan sajikan."
+            }
+        ]
+    },
+    {
+        "title": "Telur Disambal Goreng",
+        "slug": "telur-disambal-goreng",
+        "category": "masakan-telur",
+        "description": "Telur yang disajikan dengan sambal goreng dan santan.",
+        "ingredients": [
+            {
+                "name": "Telur ayam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kelapa tua",
+                "quantity": "Untuk santan"
+            },
+            {
+                "name": "Minyak goreng",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Laos",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Rempah-rempah dihaluskan, lalu ditumis hingga harum."
+            },
+            {
+                "step": 2,
+                "text": "Tambahkan santan dan aduk hingga mendidih."
+            },
+            {
+                "step": 3,
+                "text": "Pecahkan telur satu persatu ke dalam sambal, masak hingga matang."
+            },
+            {
+                "step": 4,
+                "text": "Sajikan telur dengan sambal santan."
+            }
+        ]
+    },
+    {
+        "title": "Telur Bumbu",
+        "slug": "telur-bumbu",
+        "category": "masakan-telur",
+        "description": "Telur yang dimasak dengan santan berbumbu hingga kental.",
+        "ingredients": [
+            {
+                "name": "Telur ayam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Minyak goreng",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Santan",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kunyit",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Asam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Gula",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Telur direbus, dikupas, dan digoreng sebentar hingga berwarna kuning."
+            },
+            {
+                "step": 2,
+                "text": "Tumis rempah hingga harum, tambahkan santan dan masak hingga kental."
+            },
+            {
+                "step": 3,
+                "text": "Masukkan telur ke dalam bumbu, aduk sebentar, dan sajikan."
+            }
+        ]
+    },
+    {
+        "title": "Telur Masak Bali",
+        "slug": "telur-masak-bali",
+        "category": "masakan-telur",
+        "description": "Telur yang dimasak dengan bumbu khas Bali hingga kuah hampir kering.",
+        "ingredients": [
+            {
+                "name": "Telur ayam atau telur bebek",
+                "quantity": "8 butir"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "5 buah"
+            },
+            {
+                "name": "Terasi",
+                "quantity": "1 ujung pisau"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "3 buah"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "2 siung"
+            },
+            {
+                "name": "Jahe",
+                "quantity": "1 potong"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Asam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Gula",
+                "quantity": "Sedikit"
+            },
+            {
+                "name": "Santan kelapa",
+                "quantity": "1 gelas"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Telur direbus, dikupas, lalu digoreng hingga berwarna kuning."
+            },
+            {
+                "step": 2,
+                "text": "Tumis bumbu hingga harum, tambahkan santan, asam, dan gula."
+            },
+            {
+                "step": 3,
+                "text": "Masukkan telur ke dalam bumbu, masak hingga kuah hampir kering, dan sajikan."
             }
         ]
     }
