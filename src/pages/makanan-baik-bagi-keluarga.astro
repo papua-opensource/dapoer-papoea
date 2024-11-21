@@ -1,68 +1,237 @@
 ---
+import ChapterNavigation from "../components/ChapterNavigation.astro";
 import Layout from "../layouts/Layout.astro";
 
-const title = "Makanan Baik Bagi Keluarga";
+const title = "Makanan Sehat bagi Keluarga";
 const description =
     "Panduan makanan sehat dan bergizi untuk keluarga, menggunakan bahan lokal khas Papua.";
 ---
 
 <Layout title={title} description={description}>
     <main
-        class="max-w-screen-lg mx-auto animate space-y-6 px-4 md:px-24 lg:px-8 py-8 md:py-12"
+        class="max-w-screen-lg mx-auto space-y-6 px-4 md:px-24 lg:px-8 py-8 md:py-12"
     >
-        <h1 class="text-3xl font-bold text-gray-800">{title}</h1>
-        <p class="text-gray-700 leading-relaxed">
-            Makanan bukan hanya tentang rasa, tetapi juga tentang kesehatan dan
-            kebersamaan. Di <strong>Dapoer Papoea</strong>, kami tidak hanya
-            berfokus pada kelezatan tetapi juga pada manfaat gizi yang dapat
-            diberikan oleh setiap hidangan.
-        </p>
-        <h2 class="text-2xl font-semibold text-gray-800 mt-6">
-            Prinsip Makanan Baik untuk Keluarga
-        </h2>
-        <ul class="list-disc list-inside text-gray-700">
-            <li>
-                <strong>Seimbang</strong>: Kombinasikan karbohidrat, protein,
-                lemak sehat, vitamin, dan mineral dalam setiap hidangan.
-            </li>
-            <li>
-                <strong>Lokal dan Segar</strong>: Gunakan bahan-bahan lokal yang
-                segar untuk rasa dan nutrisi terbaik.
-            </li>
-            <li>
-                <strong>Beragam</strong>: Pastikan keluarga Anda mendapatkan
-                variasi makanan untuk menghindari kebosanan dan memenuhi
-                kebutuhan gizi.
-            </li>
-        </ul>
-        <h2 class="text-2xl font-semibold text-gray-800 mt-6">
-            Hidangan Favorit untuk Keluarga Papua
-        </h2>
-        <ul class="list-disc list-inside text-gray-700">
-            <li>
-                <strong>Papeda</strong>: Sumber karbohidrat dari sagu yang mudah
-                dicerna dan rendah gluten.
-            </li>
-            <li>
-                <strong>Ikan Kuah Kuning</strong>: Kaya akan protein dan
-                omega-3, baik untuk perkembangan otak.
-            </li>
-            <li>
-                <strong>Sayur Daun Singkong</strong>: Mengandung serat tinggi
-                yang baik untuk pencernaan.
-            </li>
-            <li>
-                <strong>Kue Lontar</strong>: Pilihan camilan yang memberikan
-                energi instan.
-            </li>
-        </ul>
-        <p class="text-gray-700 leading-relaxed">
-            Dengan mengikuti panduan dan resep dalam buku ini, Anda dapat
-            menyajikan makanan yang tidak hanya lezat tetapi juga menyehatkan
-            untuk seluruh anggota keluarga.
-        </p>
-        <p class="text-gray-700 font-semibold mt-6">
-            Selamat memasak dan menikmati waktu makan bersama keluarga!
-        </p>
+        <h1 class="text-xl md:text-3xl font-semibold text-gray-800">{title}</h1>
+
+        <section class="space-y-4">
+            <img
+                src="https://via.placeholder.com/400x300"
+                alt="Ilustrasi makanan sehat: makanan pokok, lauk-pauk, sayur dan buah"
+                class="w-full h-[24rem] rounded-md"
+            />
+            <div class="flex flex-col">
+                <div class="text-gray-700">
+                    <p>Dalam tubuh manusia makanan mempunyai TRI-guna:</p>
+                    <ul class="list-decimal list-inside">
+                        <li>Tenaga</li>
+                        <li>Pembangun</li>
+                        <li>Pengatur</li>
+                    </ul>
+                    <p class="mt-4">
+                        <strong
+                            >I - Guna yang pertama: <span class="underline"
+                                >MAKANAN sebagai sumber ZAT TENAGA</span
+                            ></strong
+                        ><br />
+                        ...agar kita mempunyai tenaga untuk bekerja dan belajar.
+                        <br />
+                        MAKANAN POKOK merupakan bahan sumber ZAT TENAGA seperti:
+                        sagu, betatas, keladi, ubi, kasbi, bete, pisang, jagung,
+                        nasi.
+                    </p>
+                    <p class="mt-4">
+                        <strong
+                            >II - Guna yang kedua: <span class="underline"
+                                >MAKANAN sebagai sumber ZAT PEMBANGUN</span
+                            ></strong
+                        ><br />
+                        ...agar kita dapat bertumbuh dan untuk memelihara dan memperbaiki
+                        tubuh yang aus dan rusak. <br />
+                        LAUK-PAUK merupakan bahan sumber ZAT PEMBANGUN seperti: ikan,
+                        tiram, macam-macam bila, daging, tikus tanah, telur, tempe,
+                        kacang, kacang tanah, kacang kecepir, kacang kedele, kacang
+                        hijau, kacang merah dan kacang panjang.
+                    </p>
+                    <p class="mt-4">
+                        <strong
+                            >III - Guna yang ketiga: <span class="underline"
+                                >MAKANAN sebagai sumber ZAT PENGATUR</span
+                            ></strong
+                        ><br />
+                        ...agar semua bagian tubuh dapat melaksanakan tugasnya secara
+                        teratur. <br />
+                        SAYUR dan BUAH yang berwarna merupakan bahan sumber ZAT PENGATUR
+                        seperti: kangkung, bayam, daun betatas, daun genemo, daun
+                        kasbi, ketimun, sayur lilin, labu, tomat, jeruk, pepaya,
+                        nanas, pisang, mangga, semangka, nangka, geawas, tomi-tomi.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="space-y-4 mt-8">
+            <h2 class="text-2xl font-semibold text-gray-800">
+                Contoh Menu Harian
+            </h2>
+            <p class="text-gray-700">
+                Makanan dari tiga golongan ini terlalu banyak untuk dapat
+                dimakan setiap hari. Oleh sebab itu kalau kita mau masak, maka
+                kita pilih salah satu dari tiap jenis makanan yang ada.
+            </p>
+            <p class="text-gray-700 font-bold">
+                Kita Makan Tiap-Tiap Hari dari Tiap-Tiap Kelompok!
+            </p>
+
+            <!-- Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 py-6">
+                <div class="text-center">
+                    <img
+                        class="rounded-md sm:size-48 lg:size-60"
+                        src="https://via.placeholder.com/400x300"
+                        alt="Ilustrasi contoh menu harian: papeda, ikan, kangkung, buah nangka"
+                    />
+                    <div class="mt-2 sm:mt-4">
+                        <p
+                            class="text-sm text-gray-600 md:text-base font-medium"
+                        >
+                            Papeda
+                        </p>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="text-center">
+                    <img
+                        class="rounded-md sm:size-48 lg:size-60"
+                        src="https://via.placeholder.com/400x300"
+                        alt="Ilustrasi contoh menu harian: papeda, ikan, kangkung, buah nangka"
+                    />
+                    <div class="mt-2 sm:mt-4">
+                        <p
+                            class="text-sm text-gray-600 md:text-base font-medium"
+                        >
+                            Ikan
+                        </p>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="text-center">
+                    <img
+                        class="rounded-md sm:size-48 lg:size-60"
+                        src="https://via.placeholder.com/400x300"
+                        alt="Ilustrasi contoh menu harian: papeda, ikan, kangkung, buah nangka"
+                    />
+                    <div class="mt-2 sm:mt-4">
+                        <p
+                            class="text-sm text-gray-600 md:text-base font-medium"
+                        >
+                            Kangkung
+                        </p>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="text-center">
+                    <img
+                        class="rounded-md sm:size-48 lg:size-60"
+                        src="https://via.placeholder.com/400x300"
+                        alt="Ilustrasi contoh menu harian: papeda, ikan, kangkung, buah nangka"
+                    />
+                    <div class="mt-2 sm:mt-4">
+                        <p
+                            class="text-sm text-gray-600 md:text-base font-medium"
+                        >
+                            Buah Nangka
+                        </p>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="text-center">
+                    <img
+                        class="rounded-md sm:size-48 lg:size-60"
+                        src="https://via.placeholder.com/400x300"
+                        alt="Ilustrasi contoh menu harian: papeda, ikan, kangkung, buah nangka"
+                    />
+                    <div class="mt-2 sm:mt-4">
+                        <p
+                            class="text-sm text-gray-600 md:text-base font-medium"
+                        >
+                            Betatas
+                        </p>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="text-center">
+                    <img
+                        class="rounded-md sm:size-48 lg:size-60"
+                        src="https://via.placeholder.com/400x300"
+                        alt="Ilustrasi contoh menu harian: papeda, ikan, kangkung, buah nangka"
+                    />
+                    <div class="mt-2 sm:mt-4">
+                        <p
+                            class="text-sm text-gray-600 md:text-base font-medium"
+                        >
+                            Kacang Keciper
+                        </p>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="text-center">
+                    <img
+                        class="rounded-md sm:size-48 lg:size-60"
+                        src="https://via.placeholder.com/400x300"
+                        alt="Ilustrasi contoh menu harian: papeda, ikan, kangkung, buah nangka"
+                    />
+                    <div class="mt-2 sm:mt-4">
+                        <p
+                            class="text-sm text-gray-600 md:text-base font-medium"
+                        >
+                            Gedi
+                        </p>
+                    </div>
+                </div>
+                <!-- End Col -->
+
+                <div class="text-center">
+                    <img
+                        class="rounded-md sm:size-48 lg:size-60"
+                        src="https://via.placeholder.com/400x300"
+                        alt="Ilustrasi contoh menu harian: papeda, ikan, kangkung, buah nangka"
+                    />
+                    <div class="mt-2 sm:mt-4">
+                        <p
+                            class="text-sm text-gray-600 md:text-base font-medium"
+                        >
+                            Buah Geawas
+                        </p>
+                    </div>
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Grid -->
+
+            <p class="text-gray-700 leading-relaxed">
+                Di atas ini hanya merupakan contoh saja. Tentu kami pilih
+                makanan yang mudah didapat, dari kebun, laut, danau, dan sungai
+                atau yang dapat dibeli dengan harga murah di pasar.
+            </p>
+            <p class="text-gray-700 leading-relaxed">
+                Yang penting bahwa kita pilih makanan dari tiap kelompok. Kalau
+                kita tiap hari makan begitu, kita dapat semua zat-zat makanan
+                yang kita perlu untuk hidup baik dan sehat mungkin.
+            </p>
+            <p class="text-gray-700 font-bold mt-4">"Ayo... kita masak!"</p>
+        </section>
+
+        <ChapterNavigation
+            prevTitle="Kata Pengantar"
+            prevLink="/kata-pengantar/"
+            nextTitle="Masakan Papeda, Keladi, dan Nasi"
+            nextLink="/daftar-isi/papeda-keladi-nasi/"
+        />
     </main>
 </Layout>

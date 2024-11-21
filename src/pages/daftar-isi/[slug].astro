@@ -3,6 +3,7 @@ import recipes from "../../data/recipes.json";
 import chapters from "../../data/chapters.json";
 import Layout from "../../layouts/Layout.astro";
 import ArrowCard from "../../components/ArrowCard.astro";
+import ChapterNavigation from "../../components/ChapterNavigation.astro";
 
 const { slug } = Astro.params;
 
@@ -21,10 +22,10 @@ if (!category) {
     title={category.title}
     description={`Resep untuk kategori ${category.title}`}
 >
-    <main>
-        <section
-            class="max-w-screen-lg mx-auto animate space-y-6 px-4 md:px-24 lg:px-8 py-8 md:py-12"
-        >
+    <main
+        class="max-w-screen-lg mx-auto space-y-6 px-4 md:px-24 lg:px-8 py-8 md:py-12"
+    >
+        <section class="space-y-6">
             <h2 class="text-2xl font-semibold">
                 {category.chapter}. {category.title}
             </h2>
@@ -71,6 +72,13 @@ if (!category) {
                 Total <span id="totalRecipes">{filteredRecipes.length}</span> Resep
             </p>
         </section>
+
+        <ChapterNavigation
+            prevTitle="Masakan Papeda, Keladi, dan Nasi"
+            prevLink="/daftar-isi/papeda-keladi-nasi/"
+            nextTitle="Masakan Sup"
+            nextLink="/daftar-isi/masakan-sup/"
+        />
     </main>
 </Layout>
 <script is:inline>
