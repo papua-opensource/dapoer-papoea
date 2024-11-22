@@ -17,14 +17,14 @@ Dapoer Papoea adalah sebuah proyek open-source yang bertujuan untuk mendokumenta
 
 ## 🚀 Memulai Proyek
 
-### 1. Clone Repository
+#### 1. Clone Repository
 
 ```
 git clone https://github.com/papua-opensource/dapoer-papoea.git
 cd dapoer-papoea
 ```
 
-### 2. Install Dependencies
+#### 2. Install Dependencies
 
 Gunakan package manager pilihan Anda (npm, yarn, atau pnpm):
 
@@ -34,7 +34,7 @@ pnpm install
 npm install
 ```
 
-### 3. Jalankan Proyek
+#### 3. Jalankan Proyek
 
 ```
 pnpm dev
@@ -42,7 +42,7 @@ pnpm dev
 
 Akses proyek Anda di ```http://localhost:4321```.
 
-### 4. Build untuk Produksi
+#### 4. Build untuk Produksi
 
 ```
 pnpm build
