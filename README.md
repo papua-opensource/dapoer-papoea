@@ -123,6 +123,6 @@ Jika Anda menyukai proyek ini, beri bintang ⭐ di repository ini. Anda juga dap
 Jika Anda memiliki pertanyaan atau masukan, jangan ragu untuk menghubungi kami melalui:
 
 - Email: [contact@dapoerpapoea.web.id](contact@dapoerpapoea.web.id)
-- GitHub Issues: Buka Diskusi
+- GitHub Issues: [Buka Diskusi](https://github.com/papua-opensource/dapoer-papoea/issues/new)
 
 Terima kasih telah mendukung proyek Dapoer Papoea! 🙌 Mari bersama-sama menjaga dan melestarikan kuliner khas Papua untuk generasi mendatang. 🌏✨
