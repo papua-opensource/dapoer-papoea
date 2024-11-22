@@ -44,7 +44,9 @@ Akses proyek Anda di ```http://localhost:4321```.
 
 ### 4. Build untuk Produksi
 
-```pnpm build```
+```
+pnpm build
+```
 
 ## 📂 Struktur Proyek
 
