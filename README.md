@@ -1,4 +1,4 @@
-# Dapoer Papoea: Menjaga Warisan Kuliner Khas Papua
+# 🛖 Dapoer Papoea: Menjaga Warisan Kuliner Khas Papua
 
 Dapoer Papoea adalah sebuah proyek open-source yang bertujuan untuk mendokumentasikan dan mempopulerkan resep-resep kuliner khas Papua. Dengan menggunakan teknologi modern seperti AstroJS, TailwindCSS, dan Preline UI, kami berharap dapat memberikan pengalaman interaktif yang memudahkan siapa saja untuk mengeksplorasi dan mencoba resep khas Papua.
 
