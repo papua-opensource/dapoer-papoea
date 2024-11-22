@@ -24,7 +24,6 @@ const groupedRecipes = chapters
     >
         <h1 class="text-2xl font-bold text-gray-800">Daftar Isi Terperinci</h1>
 
-        <!-- Input Pencarian -->
         <div>
             <input
                 type="text"
@@ -34,97 +33,102 @@ const groupedRecipes = chapters
             />
         </div>
 
-        <!-- Container untuk Hasil Pencarian -->
         <div id="resultsContainer">
             {
-                groupedRecipes.length > 0 ? (
-                    groupedRecipes.map((group) => (
-                        <section
-                            class="space-y-4"
-                            data-group={group.title.toLowerCase()}
-                        >
-                            <h2 class="text-lg md:text-xl font-semibold text-gray-800 pt-8">
-                                {group.chapter}. {group.title}
-                            </h2>
-                            {group.recipes.length > 0 ? (
-                                <ul class="not-prose flex flex-col gap-4">
-                                    {group.recipes.map((recipe) => (
-                                        <li
-                                            data-recipe={recipe.title.toLowerCase()}
-                                        >
-                                            <ArrowCard
-                                                entry={{
-                                                    collection: null,
-                                                    slug: recipe.slug,
-                                                    data: {
-                                                        title: recipe.title,
-                                                        description:
-                                                            recipe.description,
-                                                    },
-                                                }}
-                                            />
-                                        </li>
-                                    ))}
-                                </ul>
-                            ) : (
-                                <p class="text-gray-500 italic">
-                                    Belum ada resep untuk bagian ini.
-                                </p>
-                            )}
-                        </section>
-                    ))
-                ) : (
-                    <p class="text-gray-500 italic">
-                        Belum ada resep yang tersedia saat ini.
-                    </p>
-                )
+                groupedRecipes.map((group) => (
+                    <section
+                        class="space-y-4"
+                        data-group={group.title.toLowerCase()}
+                    >
+                        <h2 class="text-lg md:text-xl font-semibold text-gray-800 pt-8">
+                            {group.chapter}. {group.title}
+                        </h2>
+                        {group.recipes.length > 0 ? (
+                            <ul class="not-prose flex flex-col gap-4">
+                                {group.recipes.map((recipe) => (
+                                    <li
+                                        data-recipe={recipe.title.toLowerCase()}
+                                    >
+                                        <ArrowCard
+                                            entry={{
+                                                collection: null,
+                                                slug: recipe.slug,
+                                                data: {
+                                                    title: recipe.title,
+                                                    description:
+                                                        recipe.description,
+                                                },
+                                            }}
+                                        />
+                                    </li>
+                                ))}
+                            </ul>
+                        ) : (
+                            <p class="text-gray-500 italic">
+                                Belum ada resep untuk bagian ini.
+                            </p>
+                        )}
+                    </section>
+                ))
             }
+        </div>
+
+        <div>
+            <p class="text-end text-xs text-gray-500">
+                Total <span id="totalRecipes"
+                    >{
+                        groupedRecipes.reduce(
+                            (acc, group) => acc + group.recipes.length,
+                            0,
+                        )
+                    }</span
+                > Resep
+            </p>
         </div>
     </main>
 </Layout>
 <script is:inline>
-    document.addEventListener("DOMContentLoaded", () => {
+    document.addEventListener("astro:page-load", () => {
         const searchInput = document.getElementById("searchInput");
-        const resultsContainer = document.getElementById("resultsContainer");
-        const sections = resultsContainer.querySelectorAll("section");
+        const totalRecipesElement = document.getElementById("totalRecipes");
 
-        searchInput.addEventListener("input", (event) => {
-            const query = event.target.value.toLowerCase();
+        if (searchInput) {
+            const resultsContainer =
+                document.getElementById("resultsContainer");
+            const sections = resultsContainer.querySelectorAll("section");
 
-            // Reset ke tampilan awal jika input kosong
-            if (query.trim() === "") {
+            searchInput.addEventListener("input", (event) => {
+                const query = event.target.value.toLowerCase();
+                let totalVisibleRecipes = 0;
+
                 sections.forEach((section) => {
-                    section.style.display = "block"; // Tampilkan semua kategori
+                    const groupTitle = section.getAttribute("data-group");
                     const recipes = section.querySelectorAll("li");
+                    let hasVisibleRecipes = false;
+
                     recipes.forEach((recipe) => {
-                        recipe.style.display = "block"; // Tampilkan semua resep
+                        const recipeTitle = recipe.getAttribute("data-recipe");
+                        if (
+                            recipeTitle.includes(query) ||
+                            groupTitle.includes(query)
+                        ) {
+                            recipe.style.display = "block";
+                            totalVisibleRecipes++;
+                            hasVisibleRecipes = true;
+                        } else {
+                            recipe.style.display = "none";
+                        }
                     });
-                });
-                return;
-            }
 
-            // Filter kategori dan resep berdasarkan query
-            sections.forEach((section) => {
-                const groupTitle = section.getAttribute("data-group");
-                const recipes = section.querySelectorAll("li");
-
-                let hasVisibleRecipes = false;
-
-                recipes.forEach((recipe) => {
-                    const recipeTitle = recipe.getAttribute("data-recipe");
-                    if (
-                        recipeTitle.includes(query) ||
-                        groupTitle.includes(query)
-                    ) {
-                        recipe.style.display = "block";
-                        hasVisibleRecipes = true;
-                    } else {
-                        recipe.style.display = "none";
-                    }
+                    // Tampilkan atau sembunyikan kategori berdasarkan hasil resep
+                    section.style.display = hasVisibleRecipes
+                        ? "block"
+                        : "none";
                 });
 
-                section.style.display = hasVisibleRecipes ? "block" : "none";
+                // Perbarui total resep yang terlihat
+                totalRecipesElement.textContent = totalVisibleRecipes;
             });
-        });
+        }
     });
 </script>

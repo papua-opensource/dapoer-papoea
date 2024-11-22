@@ -1,5 +1,5 @@
 ---
-import '@fontsource-variable/onest';
+import "@fontsource-variable/onest";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import Navbar from "../components/Navbar.astro";
@@ -20,10 +20,13 @@ const { title, description } = Astro.props;
 	<body>
 		<Navbar />
 		<slot />
-		<Footer/>
+		<Footer />
 	</body>
 </html>
 
 <script>
-	import "preline/dist/preline.js";
+	document.addEventListener("astro:page-load", async () => {
+		const preline = await import("preline/dist/preline.js");
+		preline.HSStaticMethods.autoInit();
+	});
 </script>

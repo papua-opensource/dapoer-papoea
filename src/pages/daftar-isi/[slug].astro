@@ -7,16 +7,11 @@ import ChapterNavigation from "../../components/ChapterNavigation.astro";
 
 const { slug } = Astro.params;
 
-// Ambil data kategori berdasarkan slug
 const categoryIndex = chapters.findIndex((chapter) => chapter.slug === slug);
 const category = chapters[categoryIndex];
-
-// Ambil chapter sebelumnya dan berikutnya
 const prevChapter = categoryIndex > 0 ? chapters[categoryIndex - 1] : null;
 const nextChapter =
     categoryIndex < chapters.length - 1 ? chapters[categoryIndex + 1] : null;
-
-// Filter resep berdasarkan kategori (jika kategori adalah tipe "category")
 const filteredRecipes =
     category?.type === "category"
         ? recipes.filter((recipe) => recipe.category === slug)
@@ -36,11 +31,9 @@ if (!category) {
     >
         <section class="space-y-6">
             <h2 class="text-xl md:text-2xl font-semibold">
-                {category.chapter ? `${category.chapter}.` : ""}
-                {category.title}
+                {category.chapter ? `${category.chapter}.` : ""}{category.title}
             </h2>
 
-            <!-- Input Pencarian -->
             <div>
                 <input
                     type="text"
@@ -50,7 +43,6 @@ if (!category) {
                 />
             </div>
 
-            <!-- Container untuk Hasil Pencarian -->
             <div id="resultsContainer">
                 {
                     filteredRecipes.length > 0 ? (
@@ -77,13 +69,12 @@ if (!category) {
                     )
                 }
             </div>
-
-            <p class="text-end text-xs text-gray-500">
-                Total <span id="totalRecipes">{filteredRecipes.length}</span> Resep
-            </p>
         </section>
 
-        <!-- Komponen Navigasi -->
+        <p class="text-end text-xs text-gray-500">
+            Total <span id="totalRecipes">{filteredRecipes.length}</span> Resep
+        </p>
+
         <ChapterNavigation
             prevTitle={prevChapter?.title}
             prevLink={prevChapter && prevChapter.type === "category"
@@ -95,31 +86,33 @@ if (!category) {
                 : `/${nextChapter?.slug}/`}
         />
     </main>
-</Layout>
-
-<script is:inline>
-    document.addEventListener("DOMContentLoaded", () => {
+</Layout><script is:inline>
+    document.addEventListener("astro:page-load", () => {
         const searchInput = document.getElementById("searchInput");
-        const resultsContainer = document.getElementById("resultsContainer");
-        const recipes = resultsContainer.querySelectorAll("li");
-        const totalRecipes = document.getElementById("totalRecipes");
+        const totalRecipesElement = document.getElementById("totalRecipes");
 
-        searchInput.addEventListener("input", (event) => {
-            const query = event.target.value.toLowerCase();
-            let visibleCount = 0;
+        if (searchInput) {
+            const resultsContainer =
+                document.getElementById("resultsContainer");
+            const recipes = resultsContainer.querySelectorAll("li");
 
-            recipes.forEach((recipe) => {
-                const recipeTitle = recipe.getAttribute("data-recipe");
-                if (recipeTitle.includes(query)) {
-                    recipe.style.display = "block";
-                    visibleCount++;
-                } else {
-                    recipe.style.display = "none";
-                }
+            searchInput.addEventListener("input", (event) => {
+                const query = event.target.value.toLowerCase();
+                let visibleCount = 0;
+
+                recipes.forEach((recipe) => {
+                    const recipeTitle = recipe.getAttribute("data-recipe");
+                    if (recipeTitle.includes(query)) {
+                        recipe.style.display = "block";
+                        visibleCount++;
+                    } else {
+                        recipe.style.display = "none";
+                    }
+                });
+
+                // Perbarui total resep yang terlihat
+                totalRecipesElement.textContent = visibleCount;
             });
-
-            // Perbarui jumlah resep yang terlihat
-            totalRecipes.textContent = visibleCount;
-        });
+        }
     });
 </script>
