@@ -76,7 +76,7 @@ Langkah Berkontribusi
 2. Clone repository hasil fork:
 
     ```
-    git clone https://github.com/username/dapoer-papoea.git
+    git clone https://github.com/papua-opensource/dapoer-papoea.git
     ```
 
 3. Buat branch baru untuk perubahan Anda:
@@ -109,7 +109,7 @@ Langkah Berkontribusi
 
 ## 🛡️ Lisensi
 
-Proyek ini dilisensikan di bawah lisensi MIT. Silakan baca [LICESE](./LICENSE) untuk detailnya.
+Proyek ini dilisensikan di bawah lisensi MIT. Silakan baca [LICENSE](./LICENSE) untuk detailnya.
 
 ## 💌 Dukungan
 
