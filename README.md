@@ -59,7 +59,7 @@ pnpm build
 │   ├── pages/             # Halaman website
 ├── astro.config.mjs       # Konfigurasi utama untuk AstroJS
 ├── LICENSE                # Informasi lisensi proyek
-├── package.json           # # Informasi dependenciesInformasi dependencies
+├── package.json           # Informasi dependencies
 ├── pnpm-lock.yaml         # File lock untuk dependensi menggunakan pnpm
 ├── README.md              # Dokumentasi proyek
 ├── tailwind.config.js     # Konfigurasi TailwindCSS
