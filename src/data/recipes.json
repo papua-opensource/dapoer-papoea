@@ -3366,5 +3366,195 @@
                 "text": "Masukkan telur ke dalam bumbu, masak hingga kuah hampir kering, dan sajikan."
             }
         ]
+    },
+    {
+        "title": "Lumpiah",
+        "slug": "lumpiah",
+        "category": "masakan-daging",
+        "description": "Lumpiah dengan isi tauge, rebung, kool, kacang buncis, dan daging babi atau kaleng.",
+        "ingredients": [
+            {
+                "name": "Tauge",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Rebung",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kool",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kacang buncis",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daging babi atau daging kaleng",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kucai",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Buatlah dadar tepung, tetapi jangan memakai gula dan goreng sebentar disebelah saja. Gunakan hanya kuning telur, bagian putih disimpan dahulu."
+            },
+            {
+                "step": 2,
+                "text": "Rebung dipotong-potong, lalu dimasak, setelah itu diiris kecil-kecil lagi. Daging direbus dan diiris kecil-kecil lagi. Bawang dan sayuran dipotong halus, lantas semuanya itu digoreng bersama-sama, ditambahkan rempah-rempah dan daging halus, terus digoreng kembali."
+            },
+            {
+                "step": 3,
+                "text": "Sesudah itu diisi dalam dadar tepung, lantas dilipat baik-baik. Putih telur ditambahkan sedikit untuk lemnya."
+            },
+            {
+                "step": 4,
+                "text": "Minyak dipanaskan lebih dahulu. Kemudian lumpiah digulingkan ke putih telur itu dan digoreng sampai berwarna merah."
+            }
+        ]
+    },
+    {
+        "title": "Bami Goreng",
+        "slug": "bami-goreng",
+        "category": "masakan-daging",
+        "description": "Mie goreng yang dimasak dengan daging babi, kool, dan bumbu-bumbu.",
+        "ingredients": [
+            {
+                "name": "Mie buatan atau mie toko",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daging babi",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kool",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Telur",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kucai",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lada",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kecap",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Mie dimasak sebentar sebelum dimasak, lalu disisihkan hingga dingin."
+            },
+            {
+                "step": 2,
+                "text": "Sayur-sayuran dibersihkan dan dipotong-potong kecil. Bawang diiris dan rempah-rempah ditumbuk."
+            },
+            {
+                "step": 3,
+                "text": "Sayur ditumis, lalu tambahkan mie yang sudah dimasak. Diaduk hingga rata, tambahkan kecap."
+            },
+            {
+                "step": 4,
+                "text": "Hiasi dengan irisan telur dadar. Sajikan segera."
+            }
+        ]
+    },
+    {
+        "title": "Nasi Goreng",
+        "slug": "nasi-goreng",
+        "category": "masakan-daging",
+        "description": "Nasi goreng dengan sisa daging atau ikan, ditambah rempah dan kecap.",
+        "ingredients": [
+            {
+                "name": "Nasi atau sisa nasi",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Daging atau ikan",
+                "quantity": "Sisa-sisa"
+            },
+            {
+                "name": "Bawang merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Bawang putih",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Lombok merah",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Tomat",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Kecap",
+                "quantity": "Secukupnya"
+            },
+            {
+                "name": "Garam",
+                "quantity": "Secukupnya"
+            }
+        ],
+        "instructions": [
+            {
+                "step": 1,
+                "text": "Nasi harus dingin dan kering, tidak melekat."
+            },
+            {
+                "step": 2,
+                "text": "Bawang merah diiris dan separuh digoreng kering, ditaruh di atas piring."
+            },
+            {
+                "step": 3,
+                "text": "Sisa dari bawang merah tadi ditambah bawang putih, terasi, garam, lombok, dan tomat, semuanya ditumbuk bersama-sama dan digoreng sebentar dengan minyak."
+            },
+            {
+                "step": 4,
+                "text": "Daging atau ikan ditambahkan ke dalam nasi, semuanya digoreng hingga matang."
+            },
+            {
+                "step": 5,
+                "text": "Hiasi dengan irisan telur dadar, kerupuk, dan acar ketimun."
+            }
+        ]
     }
 ]
