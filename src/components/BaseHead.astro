@@ -1,4 +1,6 @@
 ---
+import { ViewTransitions } from "astro:transitions";
+
 interface Props {
   title: string;
   description: string;
@@ -13,6 +15,9 @@ const { title, description } = Astro.props;
 <link rel="icon" type="image/svg+xml" href="/gambar/logo_dapoerpapoea.png" />
 <meta name="generator" content={Astro.generator} />
 <title>{title} — Dapoer Papoea</title>
+
+<!-- Full site view transitions -->
+<ViewTransitions />
 
 <!-- Bunny Fonts -->
 <link rel="preconnect" href="https://fonts.bunny.net" />
